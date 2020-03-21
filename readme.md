@@ -1,4 +1,4 @@
-版本号： 20200321 (ver 2.0.0 for develop)
+版本号： 20200321 (ver 2.0.1 for develop)
 
 # 玩具国Minecraft建设省 - 玩具国计划2.0
 
@@ -41,7 +41,7 @@
 
 请下载并解压下述文件
 
-[点击下载游戏文件](https://github.com/KazukiMan/toycraft_creative/archive/2.0.0.zip)
+[点击下载游戏文件](https://github.com/KazukiMan/toycraft_creative/archive/2.0.1.zip)
 
 ### 第二步：安装java环境
 
