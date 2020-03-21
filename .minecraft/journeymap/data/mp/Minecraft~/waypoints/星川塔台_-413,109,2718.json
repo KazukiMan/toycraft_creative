@@ -1,0 +1,18 @@
+{
+  "id": "星川塔台_-413,109,2718",
+  "name": "星川塔台",
+  "icon": "waypoint-normal.png",
+  "x": -413,
+  "y": 109,
+  "z": 2718,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

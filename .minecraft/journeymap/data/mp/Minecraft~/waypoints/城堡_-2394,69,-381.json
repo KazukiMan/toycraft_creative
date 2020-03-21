@@ -1,0 +1,18 @@
+{
+  "id": "城堡_-2394,69,-381",
+  "name": "城堡",
+  "icon": "waypoint-normal.png",
+  "x": -2394,
+  "y": 69,
+  "z": -381,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

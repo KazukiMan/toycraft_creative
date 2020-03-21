@@ -1,0 +1,18 @@
+{
+  "id": "青龙门_-1850,80,-719",
+  "name": "青龙门",
+  "icon": "waypoint-normal.png",
+  "x": -1850,
+  "y": 80,
+  "z": -719,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

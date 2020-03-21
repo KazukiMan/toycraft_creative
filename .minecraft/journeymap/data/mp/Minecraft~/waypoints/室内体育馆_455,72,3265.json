@@ -1,0 +1,18 @@
+{
+  "id": "室内体育馆_455,72,3265",
+  "name": "室内体育馆",
+  "icon": "waypoint-normal.png",
+  "x": 455,
+  "y": 72,
+  "z": 3265,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

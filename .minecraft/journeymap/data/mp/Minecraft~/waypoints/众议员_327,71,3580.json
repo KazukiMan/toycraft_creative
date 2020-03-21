@@ -1,0 +1,18 @@
+{
+  "id": "众议员_327,71,3580",
+  "name": "众议员",
+  "icon": "waypoint-normal.png",
+  "x": 327,
+  "y": 71,
+  "z": 3580,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

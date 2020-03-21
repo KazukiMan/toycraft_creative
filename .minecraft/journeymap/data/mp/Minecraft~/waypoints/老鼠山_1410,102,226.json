@@ -1,0 +1,18 @@
+{
+  "id": "老鼠山_1410,102,226",
+  "name": "老鼠山",
+  "icon": "waypoint-normal.png",
+  "x": 1410,
+  "y": 102,
+  "z": 226,
+  "r": 0,
+  "g": 160,
+  "b": 214,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

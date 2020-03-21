@@ -1,0 +1,18 @@
+{
+  "id": "BRT KA博物馆西_-1879,68,-107",
+  "name": "BRT KA博物馆西",
+  "icon": "waypoint-normal.png",
+  "x": -1879,
+  "y": 68,
+  "z": -107,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

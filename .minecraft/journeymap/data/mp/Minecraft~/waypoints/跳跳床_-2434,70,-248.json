@@ -1,0 +1,18 @@
+{
+  "id": "跳跳床_-2434,70,-248",
+  "name": "跳跳床",
+  "icon": "waypoint-normal.png",
+  "x": -2434,
+  "y": 70,
+  "z": -248,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

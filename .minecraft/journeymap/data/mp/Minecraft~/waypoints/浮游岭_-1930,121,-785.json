@@ -1,0 +1,18 @@
+{
+  "id": "浮游岭_-1930,121,-785",
+  "name": "浮游岭",
+  "icon": "waypoint-normal.png",
+  "x": -1930,
+  "y": 121,
+  "z": -785,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

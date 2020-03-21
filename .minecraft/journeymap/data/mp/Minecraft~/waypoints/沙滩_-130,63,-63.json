@@ -1,0 +1,18 @@
+{
+  "id": "沙滩_-130,63,-63",
+  "name": "沙滩",
+  "icon": "waypoint-normal.png",
+  "x": -130,
+  "y": 63,
+  "z": -63,
+  "r": 255,
+  "g": 9,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

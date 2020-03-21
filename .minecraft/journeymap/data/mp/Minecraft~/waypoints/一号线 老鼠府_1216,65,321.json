@@ -1,0 +1,18 @@
+{
+  "id": "一号线 老鼠府_1216,65,321",
+  "name": "一号线 老鼠府",
+  "icon": "waypoint-normal.png",
+  "x": 1216,
+  "y": 65,
+  "z": 321,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

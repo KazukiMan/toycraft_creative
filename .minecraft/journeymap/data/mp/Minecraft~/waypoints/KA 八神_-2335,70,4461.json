@@ -1,0 +1,18 @@
+{
+  "id": "KA 八神_-2335,70,4461",
+  "name": "KA 八神",
+  "icon": "waypoint-normal.png",
+  "x": -2335,
+  "y": 70,
+  "z": 4461,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

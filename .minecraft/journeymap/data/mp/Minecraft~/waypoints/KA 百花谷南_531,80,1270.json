@@ -1,0 +1,18 @@
+{
+  "id": "KA 百花谷南_531,80,1270",
+  "name": "KA 百花谷南",
+  "icon": "waypoint-normal.png",
+  "x": 531,
+  "y": 80,
+  "z": 1270,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

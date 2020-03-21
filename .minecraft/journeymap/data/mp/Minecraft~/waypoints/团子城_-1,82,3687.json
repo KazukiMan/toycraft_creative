@@ -1,0 +1,18 @@
+{
+  "id": "团子城_-1,82,3687",
+  "name": "团子城",
+  "icon": "waypoint-normal.png",
+  "x": -1,
+  "y": 82,
+  "z": 3687,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

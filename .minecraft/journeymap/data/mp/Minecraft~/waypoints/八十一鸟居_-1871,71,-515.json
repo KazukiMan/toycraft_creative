@@ -1,0 +1,18 @@
+{
+  "id": "八十一鸟居_-1871,71,-515",
+  "name": "八十一鸟居",
+  "icon": "waypoint-normal.png",
+  "x": -1871,
+  "y": 71,
+  "z": -515,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

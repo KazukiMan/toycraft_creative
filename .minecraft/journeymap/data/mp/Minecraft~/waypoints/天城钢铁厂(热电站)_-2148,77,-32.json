@@ -1,0 +1,18 @@
+{
+  "id": "天城钢铁厂(热电站)_-2148,77,-32",
+  "name": "天城钢铁厂(热电站)",
+  "icon": "waypoint-normal.png",
+  "x": -2148,
+  "y": 77,
+  "z": -32,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

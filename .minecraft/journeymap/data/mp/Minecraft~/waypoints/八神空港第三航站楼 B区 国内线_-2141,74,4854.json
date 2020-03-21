@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第三航站楼 B区 国内线_-2141,74,4854",
+  "name": "八神空港第三航站楼 B区 国内线",
+  "icon": "waypoint-normal.png",
+  "x": -2141,
+  "y": 74,
+  "z": 4854,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

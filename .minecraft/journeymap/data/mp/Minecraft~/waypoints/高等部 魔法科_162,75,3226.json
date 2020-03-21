@@ -1,0 +1,18 @@
+{
+  "id": "高等部 魔法科_162,75,3226",
+  "name": "高等部 魔法科",
+  "icon": "waypoint-normal.png",
+  "x": 162,
+  "y": 75,
+  "z": 3226,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

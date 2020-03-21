@@ -1,0 +1,18 @@
+{
+  "id": "藤崎町_313,82,2486",
+  "name": "藤崎町",
+  "icon": "waypoint-normal.png",
+  "x": 313,
+  "y": 82,
+  "z": 2486,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

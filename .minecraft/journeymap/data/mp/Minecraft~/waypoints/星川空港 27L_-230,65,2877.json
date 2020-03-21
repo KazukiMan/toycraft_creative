@@ -1,0 +1,18 @@
+{
+  "id": "星川空港 27L_-230,65,2877",
+  "name": "星川空港 27L",
+  "icon": "waypoint-normal.png",
+  "x": -230,
+  "y": 65,
+  "z": 2877,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

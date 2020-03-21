@@ -1,0 +1,18 @@
+{
+  "id": "操场_150,64,3275",
+  "name": "操场",
+  "icon": "waypoint-normal.png",
+  "x": 150,
+  "y": 64,
+  "z": 3275,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

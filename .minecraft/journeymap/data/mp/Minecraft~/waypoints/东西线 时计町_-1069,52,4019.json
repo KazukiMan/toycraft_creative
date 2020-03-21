@@ -1,0 +1,18 @@
+{
+  "id": "东西线 时计町_-1069,52,4019",
+  "name": "东西线 时计町",
+  "icon": "waypoint-normal.png",
+  "x": -1069,
+  "y": 52,
+  "z": 4019,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

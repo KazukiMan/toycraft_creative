@@ -1,0 +1,18 @@
+{
+  "id": "足球场_718,63,3794",
+  "name": "足球场",
+  "icon": "waypoint-normal.png",
+  "x": 718,
+  "y": 63,
+  "z": 3794,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

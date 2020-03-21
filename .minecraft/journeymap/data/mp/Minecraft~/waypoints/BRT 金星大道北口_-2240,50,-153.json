@@ -1,0 +1,18 @@
+{
+  "id": "BRT 金星大道北口_-2240,50,-153",
+  "name": "BRT 金星大道北口",
+  "icon": "waypoint-normal.png",
+  "x": -2240,
+  "y": 50,
+  "z": -153,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

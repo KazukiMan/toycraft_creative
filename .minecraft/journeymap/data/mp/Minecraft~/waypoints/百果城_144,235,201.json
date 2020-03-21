@@ -1,0 +1,18 @@
+{
+  "id": "百果城_144,235,201",
+  "name": "百果城",
+  "icon": "waypoint-normal.png",
+  "x": 144,
+  "y": 235,
+  "z": 201,
+  "r": 161,
+  "g": 89,
+  "b": 87,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

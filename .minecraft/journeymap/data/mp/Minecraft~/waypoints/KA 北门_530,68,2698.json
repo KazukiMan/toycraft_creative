@@ -1,0 +1,18 @@
+{
+  "id": "KA 北门_530,68,2698",
+  "name": "KA 北门",
+  "icon": "waypoint-normal.png",
+  "x": 530,
+  "y": 68,
+  "z": 2698,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

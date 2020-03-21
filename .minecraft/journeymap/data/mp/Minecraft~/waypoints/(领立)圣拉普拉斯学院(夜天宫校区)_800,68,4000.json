@@ -1,0 +1,18 @@
+{
+  "id": "(领立)圣拉普拉斯学院(夜天宫校区)_800,68,4000",
+  "name": "(领立)圣拉普拉斯学院(夜天宫校区)",
+  "icon": "waypoint-normal.png",
+  "x": 800,
+  "y": 68,
+  "z": 4000,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

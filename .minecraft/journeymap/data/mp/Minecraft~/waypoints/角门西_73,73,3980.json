@@ -1,0 +1,18 @@
+{
+  "id": "角门西_73,73,3980",
+  "name": "角门西",
+  "icon": "waypoint-normal.png",
+  "x": 73,
+  "y": 73,
+  "z": 3980,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

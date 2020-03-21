@@ -1,0 +1,18 @@
+{
+  "id": "KA 起始城 第一候车厅_-312,80,305",
+  "name": "KA 起始城 第一候车厅",
+  "icon": "waypoint-normal.png",
+  "x": -312,
+  "y": 80,
+  "z": 305,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

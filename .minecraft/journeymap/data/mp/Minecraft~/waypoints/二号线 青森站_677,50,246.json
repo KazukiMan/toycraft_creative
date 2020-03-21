@@ -1,0 +1,18 @@
+{
+  "id": "二号线 青森站_677,50,246",
+  "name": "二号线 青森站",
+  "icon": "waypoint-normal.png",
+  "x": 677,
+  "y": 50,
+  "z": 246,
+  "r": 230,
+  "g": 208,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

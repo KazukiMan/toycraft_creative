@@ -1,0 +1,18 @@
+{
+  "id": "一号线 小白聚落_896,66,723",
+  "name": "一号线 小白聚落",
+  "icon": "waypoint-normal.png",
+  "x": 896,
+  "y": 66,
+  "z": 723,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

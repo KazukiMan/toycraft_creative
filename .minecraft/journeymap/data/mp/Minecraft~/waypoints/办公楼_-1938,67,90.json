@@ -1,0 +1,18 @@
+{
+  "id": "办公楼_-1938,67,90",
+  "name": "办公楼",
+  "icon": "waypoint-normal.png",
+  "x": -1938,
+  "y": 67,
+  "z": 90,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

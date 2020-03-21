@@ -1,0 +1,18 @@
+{
+  "id": "南湖公园_-2078,64,-168",
+  "name": "南湖公园",
+  "icon": "waypoint-normal.png",
+  "x": -2078,
+  "y": 64,
+  "z": -168,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

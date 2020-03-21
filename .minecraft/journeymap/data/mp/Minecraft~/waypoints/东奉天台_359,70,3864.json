@@ -1,0 +1,18 @@
+{
+  "id": "东奉天台_359,70,3864",
+  "name": "东奉天台",
+  "icon": "waypoint-normal.png",
+  "x": 359,
+  "y": 70,
+  "z": 3864,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

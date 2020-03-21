@@ -1,0 +1,37 @@
+[08:46:20] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[08:46:20] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[08:46:20] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.0, built with Forge 14.23.5.2768
+Forge: 14.23.5.2847
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.0, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, systemTimeRealFormat=HH:mm:ss, shape=圆形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.0, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=指向北方, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=Blank, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.0, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.0, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=false}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.0, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.0, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.7.0, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=true, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.7.0, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=Purist, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[08:46:20] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[08:46:20] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[08:46:20] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[08:46:21] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[08:46:21] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[08:46:21] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[08:46:21] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[08:46:21] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[08:46:21] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[08:46:22] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[08:46:22] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[08:46:22] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[08:46:22] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[08:46:22] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[08:46:22] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[08:46:22] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[08:46:22] [Client thread/DEBUG] [StatTimer] elapsed was slow: 1107.524285
+[08:46:22] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r1107.52§8ms§r

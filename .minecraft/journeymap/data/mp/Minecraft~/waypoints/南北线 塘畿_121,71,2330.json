@@ -1,0 +1,18 @@
+{
+  "id": "南北线 塘畿_121,71,2330",
+  "name": "南北线 塘畿",
+  "icon": "waypoint-normal.png",
+  "x": 121,
+  "y": 71,
+  "z": 2330,
+  "r": 102,
+  "g": 204,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

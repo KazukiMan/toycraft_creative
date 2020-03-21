@@ -1,0 +1,18 @@
+{
+  "id": "(领立)圣祥学院小学部_-27,73,2371",
+  "name": "(领立)圣祥学院小学部",
+  "icon": "waypoint-normal.png",
+  "x": -27,
+  "y": 73,
+  "z": 2371,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

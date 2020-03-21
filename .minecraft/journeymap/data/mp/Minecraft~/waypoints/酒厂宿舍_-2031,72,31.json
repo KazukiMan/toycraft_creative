@@ -1,0 +1,18 @@
+{
+  "id": "酒厂宿舍_-2031,72,31",
+  "name": "酒厂宿舍",
+  "icon": "waypoint-normal.png",
+  "x": -2031,
+  "y": 72,
+  "z": 31,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

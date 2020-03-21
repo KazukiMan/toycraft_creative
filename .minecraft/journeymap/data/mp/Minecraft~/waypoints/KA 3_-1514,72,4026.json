@@ -1,0 +1,18 @@
+{
+  "id": "KA 3_-1514,72,4026",
+  "name": "KA 3",
+  "icon": "waypoint-normal.png",
+  "x": -1514,
+  "y": 72,
+  "z": 4026,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

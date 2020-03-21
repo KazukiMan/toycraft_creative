@@ -1,0 +1,18 @@
+{
+  "id": "BRT 天钢北_-2142,65,-117",
+  "name": "BRT 天钢北",
+  "icon": "waypoint-normal.png",
+  "x": -2142,
+  "y": 65,
+  "z": -117,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

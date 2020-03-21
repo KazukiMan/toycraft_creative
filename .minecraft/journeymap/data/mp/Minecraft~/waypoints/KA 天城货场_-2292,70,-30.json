@@ -1,0 +1,18 @@
+{
+  "id": "KA 天城货场_-2292,70,-30",
+  "name": "KA 天城货场",
+  "icon": "waypoint-normal.png",
+  "x": -2292,
+  "y": 70,
+  "z": -30,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

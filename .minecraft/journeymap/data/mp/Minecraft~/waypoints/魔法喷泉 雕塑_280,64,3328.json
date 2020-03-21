@@ -1,0 +1,18 @@
+{
+  "id": "魔法喷泉 雕塑_280,64,3328",
+  "name": "魔法喷泉 雕塑",
+  "icon": "waypoint-normal.png",
+  "x": 280,
+  "y": 64,
+  "z": 3328,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

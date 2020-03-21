@@ -1,0 +1,18 @@
+{
+  "id": "BRT 通天阁停车场_106,68,2030",
+  "name": "BRT 通天阁停车场",
+  "icon": "waypoint-normal.png",
+  "x": 106,
+  "y": 68,
+  "z": 2030,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

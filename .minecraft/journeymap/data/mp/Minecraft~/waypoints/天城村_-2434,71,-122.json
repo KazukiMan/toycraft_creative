@@ -1,0 +1,18 @@
+{
+  "id": "天城村_-2434,71,-122",
+  "name": "天城村",
+  "icon": "waypoint-normal.png",
+  "x": -2434,
+  "y": 71,
+  "z": -122,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

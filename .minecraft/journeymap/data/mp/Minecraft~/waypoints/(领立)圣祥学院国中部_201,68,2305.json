@@ -1,0 +1,18 @@
+{
+  "id": "(领立)圣祥学院国中部_201,68,2305",
+  "name": "(领立)圣祥学院国中部",
+  "icon": "waypoint-normal.png",
+  "x": 201,
+  "y": 68,
+  "z": 2305,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

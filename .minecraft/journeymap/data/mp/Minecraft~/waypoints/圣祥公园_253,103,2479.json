@@ -1,0 +1,18 @@
+{
+  "id": "圣祥公园_253,103,2479",
+  "name": "圣祥公园",
+  "icon": "waypoint-normal.png",
+  "x": 253,
+  "y": 103,
+  "z": 2479,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

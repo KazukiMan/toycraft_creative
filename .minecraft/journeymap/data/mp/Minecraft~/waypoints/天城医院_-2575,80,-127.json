@@ -1,0 +1,18 @@
+{
+  "id": "天城医院_-2575,80,-127",
+  "name": "天城医院",
+  "icon": "waypoint-normal.png",
+  "x": -2575,
+  "y": 80,
+  "z": -127,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "一号线 水龙敬_923,61,364",
+  "name": "一号线 水龙敬",
+  "icon": "waypoint-normal.png",
+  "x": 923,
+  "y": 61,
+  "z": 364,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第一航站楼(国内线)_-2402,69,4480",
+  "name": "八神空港第一航站楼(国内线)",
+  "icon": "waypoint-normal.png",
+  "x": -2402,
+  "y": 69,
+  "z": 4480,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

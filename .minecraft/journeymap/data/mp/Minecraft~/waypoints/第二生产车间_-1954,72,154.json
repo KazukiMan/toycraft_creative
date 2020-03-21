@@ -1,0 +1,18 @@
+{
+  "id": "第二生产车间_-1954,72,154",
+  "name": "第二生产车间",
+  "icon": "waypoint-normal.png",
+  "x": -1954,
+  "y": 72,
+  "z": 154,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

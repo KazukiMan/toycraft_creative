@@ -1,0 +1,18 @@
+{
+  "id": "地城村_-2304,74,120",
+  "name": "地城村",
+  "icon": "waypoint-normal.png",
+  "x": -2304,
+  "y": 74,
+  "z": 120,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

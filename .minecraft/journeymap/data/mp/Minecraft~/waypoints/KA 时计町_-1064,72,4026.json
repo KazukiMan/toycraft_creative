@@ -1,0 +1,18 @@
+{
+  "id": "KA 时计町_-1064,72,4026",
+  "name": "KA 时计町",
+  "icon": "waypoint-normal.png",
+  "x": -1064,
+  "y": 72,
+  "z": 4026,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "一号线 国家公园_497,51,1070",
+  "name": "一号线 国家公园",
+  "icon": "waypoint-normal.png",
+  "x": 497,
+  "y": 51,
+  "z": 1070,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

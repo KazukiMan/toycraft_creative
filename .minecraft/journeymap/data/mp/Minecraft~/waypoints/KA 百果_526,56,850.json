@@ -1,0 +1,18 @@
+{
+  "id": "KA 百果_526,56,850",
+  "name": "KA 百果",
+  "icon": "waypoint-normal.png",
+  "x": 526,
+  "y": 56,
+  "z": 850,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "金融学院_601,69,3846",
+  "name": "金融学院",
+  "icon": "waypoint-normal.png",
+  "x": 601,
+  "y": 69,
+  "z": 3846,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

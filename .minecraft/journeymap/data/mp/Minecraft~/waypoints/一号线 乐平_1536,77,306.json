@@ -1,0 +1,18 @@
+{
+  "id": "一号线 乐平_1536,77,306",
+  "name": "一号线 乐平",
+  "icon": "waypoint-normal.png",
+  "x": 1536,
+  "y": 77,
+  "z": 306,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

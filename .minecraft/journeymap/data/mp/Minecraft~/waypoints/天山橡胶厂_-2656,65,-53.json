@@ -1,0 +1,18 @@
+{
+  "id": "天山橡胶厂_-2656,65,-53",
+  "name": "天山橡胶厂",
+  "icon": "waypoint-normal.png",
+  "x": -2656,
+  "y": 65,
+  "z": -53,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

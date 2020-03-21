@@ -1,0 +1,18 @@
+{
+  "id": "鼠家嘴_681,69,739",
+  "name": "鼠家嘴",
+  "icon": "waypoint-normal.png",
+  "x": 681,
+  "y": 69,
+  "z": 739,
+  "r": 0,
+  "g": 160,
+  "b": 145,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

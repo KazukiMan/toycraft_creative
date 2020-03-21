@@ -1,0 +1,18 @@
+{
+  "id": "八神空港 27L_-2111,68,4159",
+  "name": "八神空港 27L",
+  "icon": "waypoint-normal.png",
+  "x": -2111,
+  "y": 68,
+  "z": 4159,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

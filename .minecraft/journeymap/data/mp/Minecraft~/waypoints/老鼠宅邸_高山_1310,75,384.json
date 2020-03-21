@@ -1,0 +1,18 @@
+{
+  "id": "老鼠宅邸:高山_1310,75,384",
+  "name": "老鼠宅邸:高山",
+  "icon": "waypoint-normal.png",
+  "x": 1310,
+  "y": 75,
+  "z": 384,
+  "r": 0,
+  "g": 160,
+  "b": 145,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

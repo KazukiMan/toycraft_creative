@@ -1,0 +1,18 @@
+{
+  "id": "BRT 天城村_-2374,73,-181",
+  "name": "BRT 天城村",
+  "icon": "waypoint-normal.png",
+  "x": -2374,
+  "y": 73,
+  "z": -181,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

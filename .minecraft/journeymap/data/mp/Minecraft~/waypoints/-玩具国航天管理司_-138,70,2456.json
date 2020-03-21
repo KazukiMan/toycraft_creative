@@ -1,0 +1,18 @@
+{
+  "id": "-玩具国航天管理司_-138,70,2456",
+  "name": "-玩具国航天管理司",
+  "icon": "waypoint-normal.png",
+  "x": -138,
+  "y": 70,
+  "z": 2456,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

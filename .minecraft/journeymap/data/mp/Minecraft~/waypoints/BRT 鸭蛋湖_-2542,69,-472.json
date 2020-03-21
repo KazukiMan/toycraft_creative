@@ -1,0 +1,18 @@
+{
+  "id": "BRT 鸭蛋湖_-2542,69,-472",
+  "name": "BRT 鸭蛋湖",
+  "icon": "waypoint-normal.png",
+  "x": -2542,
+  "y": 69,
+  "z": -472,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

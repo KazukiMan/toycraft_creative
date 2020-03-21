@@ -1,0 +1,18 @@
+{
+  "id": "树屋_-159,65,-9",
+  "name": "树屋",
+  "icon": "waypoint-normal.png",
+  "x": -159,
+  "y": 65,
+  "z": -9,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

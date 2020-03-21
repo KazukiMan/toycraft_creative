@@ -1,0 +1,18 @@
+{
+  "id": "太阳宫_-1990,109,-715",
+  "name": "太阳宫",
+  "icon": "waypoint-normal.png",
+  "x": -1990,
+  "y": 109,
+  "z": -715,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

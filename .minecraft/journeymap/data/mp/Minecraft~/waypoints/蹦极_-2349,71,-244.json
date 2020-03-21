@@ -1,0 +1,18 @@
+{
+  "id": "蹦极_-2349,71,-244",
+  "name": "蹦极",
+  "icon": "waypoint-normal.png",
+  "x": -2349,
+  "y": 71,
+  "z": -244,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "酿泉酒厂酒窖_-2022,68,-78",
+  "name": "酿泉酒厂酒窖",
+  "icon": "waypoint-normal.png",
+  "x": -2022,
+  "y": 68,
+  "z": -78,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

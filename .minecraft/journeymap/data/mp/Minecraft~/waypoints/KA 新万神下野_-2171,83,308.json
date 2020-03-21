@@ -1,0 +1,18 @@
+{
+  "id": "KA 新万神下野_-2171,83,308",
+  "name": "KA 新万神下野",
+  "icon": "waypoint-normal.png",
+  "x": -2171,
+  "y": 83,
+  "z": 308,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

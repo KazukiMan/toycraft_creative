@@ -1,0 +1,18 @@
+{
+  "id": "BRT 酒厂_-1879,68,-26",
+  "name": "BRT 酒厂",
+  "icon": "waypoint-normal.png",
+  "x": -1879,
+  "y": 68,
+  "z": -26,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

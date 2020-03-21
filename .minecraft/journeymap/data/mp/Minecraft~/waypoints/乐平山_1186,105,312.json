@@ -1,0 +1,18 @@
+{
+  "id": "乐平山_1186,105,312",
+  "name": "乐平山",
+  "icon": "waypoint-normal.png",
+  "x": 1186,
+  "y": 105,
+  "z": 312,
+  "r": 122,
+  "g": 89,
+  "b": 222,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

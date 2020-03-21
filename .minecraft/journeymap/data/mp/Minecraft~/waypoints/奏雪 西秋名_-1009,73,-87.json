@@ -1,0 +1,18 @@
+{
+  "id": "奏雪 西秋名_-1009,73,-87",
+  "name": "奏雪 西秋名",
+  "icon": "waypoint-normal.png",
+  "x": -1009,
+  "y": 73,
+  "z": -87,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

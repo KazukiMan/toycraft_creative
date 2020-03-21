@@ -1,0 +1,18 @@
+{
+  "id": "KA 百果北_740,74,623",
+  "name": "KA 百果北",
+  "icon": "waypoint-normal.png",
+  "x": 740,
+  "y": 74,
+  "z": 623,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

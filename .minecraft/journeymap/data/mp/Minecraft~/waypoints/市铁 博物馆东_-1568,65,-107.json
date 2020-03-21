@@ -1,0 +1,18 @@
+{
+  "id": "市铁 博物馆东_-1568,65,-107",
+  "name": "市铁 博物馆东",
+  "icon": "waypoint-normal.png",
+  "x": -1568,
+  "y": 65,
+  "z": -107,
+  "r": 128,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

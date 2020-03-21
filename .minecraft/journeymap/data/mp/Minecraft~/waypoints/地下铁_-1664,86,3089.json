@@ -1,0 +1,18 @@
+{
+  "id": "地下铁_-1664,86,3089",
+  "name": "地下铁",
+  "icon": "waypoint-normal.png",
+  "x": -1664,
+  "y": 86,
+  "z": 3089,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

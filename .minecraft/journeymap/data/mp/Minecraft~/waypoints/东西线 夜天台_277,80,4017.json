@@ -1,0 +1,18 @@
+{
+  "id": "东西线 夜天台_277,80,4017",
+  "name": "东西线 夜天台",
+  "icon": "waypoint-normal.png",
+  "x": 277,
+  "y": 80,
+  "z": 4017,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

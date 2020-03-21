@@ -1,0 +1,18 @@
+{
+  "id": "夜天殿_290,70,3640",
+  "name": "夜天殿",
+  "icon": "waypoint-normal.png",
+  "x": 290,
+  "y": 70,
+  "z": 3640,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

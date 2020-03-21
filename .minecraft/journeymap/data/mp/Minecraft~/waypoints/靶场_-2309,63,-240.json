@@ -1,0 +1,18 @@
+{
+  "id": "靶场_-2309,63,-240",
+  "name": "靶场",
+  "icon": "waypoint-normal.png",
+  "x": -2309,
+  "y": 63,
+  "z": -240,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

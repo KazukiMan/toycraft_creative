@@ -1,0 +1,18 @@
+{
+  "id": "乐平峡谷_1222,41,-196",
+  "name": "乐平峡谷",
+  "icon": "waypoint-normal.png",
+  "x": 1222,
+  "y": 41,
+  "z": -196,
+  "r": 122,
+  "g": 89,
+  "b": 222,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

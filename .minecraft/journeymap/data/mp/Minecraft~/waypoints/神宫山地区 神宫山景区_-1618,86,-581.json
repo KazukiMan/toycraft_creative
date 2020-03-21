@@ -1,0 +1,18 @@
+{
+  "id": "神宫山地区 神宫山景区_-1618,86,-581",
+  "name": "神宫山地区 神宫山景区",
+  "icon": "waypoint-normal.png",
+  "x": -1618,
+  "y": 86,
+  "z": -581,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

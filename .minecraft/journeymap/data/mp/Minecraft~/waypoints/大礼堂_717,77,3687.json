@@ -1,0 +1,18 @@
+{
+  "id": "大礼堂_717,77,3687",
+  "name": "大礼堂",
+  "icon": "waypoint-normal.png",
+  "x": 717,
+  "y": 77,
+  "z": 3687,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

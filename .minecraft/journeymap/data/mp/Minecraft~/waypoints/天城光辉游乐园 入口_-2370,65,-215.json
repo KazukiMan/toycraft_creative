@@ -1,0 +1,18 @@
+{
+  "id": "天城光辉游乐园 入口_-2370,65,-215",
+  "name": "天城光辉游乐园 入口",
+  "icon": "waypoint-normal.png",
+  "x": -2370,
+  "y": 65,
+  "z": -215,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

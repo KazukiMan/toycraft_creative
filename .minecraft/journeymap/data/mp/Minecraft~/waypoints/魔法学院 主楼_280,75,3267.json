@@ -1,0 +1,18 @@
+{
+  "id": "魔法学院 主楼_280,75,3267",
+  "name": "魔法学院 主楼",
+  "icon": "waypoint-normal.png",
+  "x": 280,
+  "y": 75,
+  "z": 3267,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

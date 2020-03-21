@@ -1,0 +1,18 @@
+{
+  "id": "老鼠宅邸:废弃_458,64,595",
+  "name": "老鼠宅邸:废弃",
+  "icon": "waypoint-normal.png",
+  "x": 458,
+  "y": 64,
+  "z": 595,
+  "r": 0,
+  "g": 160,
+  "b": 145,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

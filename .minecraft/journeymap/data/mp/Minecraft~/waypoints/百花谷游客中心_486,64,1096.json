@@ -1,0 +1,18 @@
+{
+  "id": "百花谷游客中心_486,64,1096",
+  "name": "百花谷游客中心",
+  "icon": "waypoint-normal.png",
+  "x": 486,
+  "y": 64,
+  "z": 1096,
+  "r": 144,
+  "g": 201,
+  "b": 235,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

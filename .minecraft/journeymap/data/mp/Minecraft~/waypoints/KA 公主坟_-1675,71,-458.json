@@ -1,0 +1,18 @@
+{
+  "id": "KA 公主坟_-1675,71,-458",
+  "name": "KA 公主坟",
+  "icon": "waypoint-normal.png",
+  "x": -1675,
+  "y": 71,
+  "z": -458,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "二号机组_-2113,70,-20",
+  "name": "二号机组",
+  "icon": "waypoint-normal.png",
+  "x": -2113,
+  "y": 70,
+  "z": -20,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

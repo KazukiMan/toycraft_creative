@@ -1,0 +1,18 @@
+{
+  "id": "竹林台_-1951,92,-781",
+  "name": "竹林台",
+  "icon": "waypoint-normal.png",
+  "x": -1951,
+  "y": 92,
+  "z": -781,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

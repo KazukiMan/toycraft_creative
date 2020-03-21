@@ -1,0 +1,18 @@
+{
+  "id": "南塘谷_212,69,2172",
+  "name": "南塘谷",
+  "icon": "waypoint-normal.png",
+  "x": 212,
+  "y": 69,
+  "z": 2172,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

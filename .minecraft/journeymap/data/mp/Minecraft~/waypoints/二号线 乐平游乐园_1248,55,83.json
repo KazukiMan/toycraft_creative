@@ -1,0 +1,18 @@
+{
+  "id": "二号线 乐平游乐园_1248,55,83",
+  "name": "二号线 乐平游乐园",
+  "icon": "waypoint-normal.png",
+  "x": 1248,
+  "y": 55,
+  "z": 83,
+  "r": 230,
+  "g": 208,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

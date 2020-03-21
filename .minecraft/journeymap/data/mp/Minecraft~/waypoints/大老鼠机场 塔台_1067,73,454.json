@@ -1,0 +1,18 @@
+{
+  "id": "大老鼠机场 塔台_1067,73,454",
+  "name": "大老鼠机场 塔台",
+  "icon": "waypoint-normal.png",
+  "x": 1067,
+  "y": 73,
+  "z": 454,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

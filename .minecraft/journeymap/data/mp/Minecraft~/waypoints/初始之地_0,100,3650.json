@@ -1,0 +1,18 @@
+{
+  "id": "初始之地_0,100,3650",
+  "name": "初始之地",
+  "icon": "waypoint-normal.png",
+  "x": 0,
+  "y": 100,
+  "z": 3650,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

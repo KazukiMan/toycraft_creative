@@ -1,0 +1,18 @@
+{
+  "id": "KA 星川_-87,74,2592",
+  "name": "KA 星川",
+  "icon": "waypoint-normal.png",
+  "x": -87,
+  "y": 74,
+  "z": 2592,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

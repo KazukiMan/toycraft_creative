@@ -1,0 +1,18 @@
+{
+  "id": "喷泉_-2315,63,-254",
+  "name": "喷泉",
+  "icon": "waypoint-normal.png",
+  "x": -2315,
+  "y": 63,
+  "z": -254,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

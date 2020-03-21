@@ -1,0 +1,18 @@
+{
+  "id": "总理省阁部鸾台_290,71,3556",
+  "name": "总理省阁部鸾台",
+  "icon": "waypoint-normal.png",
+  "x": 290,
+  "y": 71,
+  "z": 3556,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

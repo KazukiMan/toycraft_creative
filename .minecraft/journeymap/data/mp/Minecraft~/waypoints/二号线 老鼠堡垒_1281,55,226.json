@@ -1,0 +1,18 @@
+{
+  "id": "二号线 老鼠堡垒_1281,55,226",
+  "name": "二号线 老鼠堡垒",
+  "icon": "waypoint-normal.png",
+  "x": 1281,
+  "y": 55,
+  "z": 226,
+  "r": 230,
+  "g": 208,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

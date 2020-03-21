@@ -1,0 +1,18 @@
+{
+  "id": "KA 混沌府_1019,71,761",
+  "name": "KA 混沌府",
+  "icon": "waypoint-normal.png",
+  "x": 1019,
+  "y": 71,
+  "z": 761,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

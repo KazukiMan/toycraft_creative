@@ -1,0 +1,18 @@
+{
+  "id": "-贾岛旅馆_603,66,2424",
+  "name": "-贾岛旅馆",
+  "icon": "waypoint-normal.png",
+  "x": 603,
+  "y": 66,
+  "z": 2424,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

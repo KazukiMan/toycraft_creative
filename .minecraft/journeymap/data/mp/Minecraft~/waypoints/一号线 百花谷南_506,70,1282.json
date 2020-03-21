@@ -1,0 +1,18 @@
+{
+  "id": "一号线 百花谷南_506,70,1282",
+  "name": "一号线 百花谷南",
+  "icon": "waypoint-normal.png",
+  "x": 506,
+  "y": 70,
+  "z": 1282,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

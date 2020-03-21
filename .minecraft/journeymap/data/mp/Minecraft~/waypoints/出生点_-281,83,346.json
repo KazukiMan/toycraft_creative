@@ -1,0 +1,18 @@
+{
+  "id": "出生点_-281,83,346",
+  "name": "出生点",
+  "icon": "waypoint-normal.png",
+  "x": -281,
+  "y": 83,
+  "z": 346,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

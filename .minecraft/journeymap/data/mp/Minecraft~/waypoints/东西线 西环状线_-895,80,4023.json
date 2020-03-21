@@ -1,0 +1,18 @@
+{
+  "id": "东西线 西环状线_-895,80,4023",
+  "name": "东西线 西环状线",
+  "icon": "waypoint-normal.png",
+  "x": -895,
+  "y": 80,
+  "z": 4023,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

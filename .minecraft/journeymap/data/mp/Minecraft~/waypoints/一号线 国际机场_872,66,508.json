@@ -1,0 +1,18 @@
+{
+  "id": "一号线 国际机场_872,66,508",
+  "name": "一号线 国际机场",
+  "icon": "waypoint-normal.png",
+  "x": 872,
+  "y": 66,
+  "z": 508,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

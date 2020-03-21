@@ -1,0 +1,18 @@
+{
+  "id": "KA 制御委员会_-3,74,3237",
+  "name": "KA 制御委员会",
+  "icon": "waypoint-normal.png",
+  "x": -3,
+  "y": 74,
+  "z": 3237,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

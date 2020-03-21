@@ -1,0 +1,18 @@
+{
+  "id": "矿区宅邸_-1977,90,3242",
+  "name": "矿区宅邸",
+  "icon": "waypoint-normal.png",
+  "x": -1977,
+  "y": 90,
+  "z": 3242,
+  "r": 0,
+  "g": 160,
+  "b": 145,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

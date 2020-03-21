@@ -1,0 +1,18 @@
+{
+  "id": "不周山 霸王殿_-1689,106,-780",
+  "name": "不周山 霸王殿",
+  "icon": "waypoint-normal.png",
+  "x": -1689,
+  "y": 106,
+  "z": -780,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "轩辕台_-1444,99,-523",
+  "name": "轩辕台",
+  "icon": "waypoint-normal.png",
+  "x": -1444,
+  "y": 99,
+  "z": -523,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

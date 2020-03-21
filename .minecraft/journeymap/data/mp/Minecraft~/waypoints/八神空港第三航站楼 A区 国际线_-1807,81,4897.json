@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第三航站楼 A区 国际线_-1807,81,4897",
+  "name": "八神空港第三航站楼 A区 国际线",
+  "icon": "waypoint-normal.png",
+  "x": -1807,
+  "y": 81,
+  "z": 4897,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

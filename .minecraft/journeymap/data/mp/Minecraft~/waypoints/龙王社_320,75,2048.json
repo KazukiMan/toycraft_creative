@@ -1,0 +1,18 @@
+{
+  "id": "龙王社_320,75,2048",
+  "name": "龙王社",
+  "icon": "waypoint-normal.png",
+  "x": 320,
+  "y": 75,
+  "z": 2048,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

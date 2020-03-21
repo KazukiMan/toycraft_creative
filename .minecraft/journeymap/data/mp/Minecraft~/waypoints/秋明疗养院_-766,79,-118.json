@@ -1,0 +1,18 @@
+{
+  "id": "秋明疗养院_-766,79,-118",
+  "name": "秋明疗养院",
+  "icon": "waypoint-normal.png",
+  "x": -766,
+  "y": 79,
+  "z": -118,
+  "r": 128,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

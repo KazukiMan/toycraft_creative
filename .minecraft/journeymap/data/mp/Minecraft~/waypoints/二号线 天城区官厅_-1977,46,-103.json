@@ -1,0 +1,18 @@
+{
+  "id": "二号线 天城区官厅_-1977,46,-103",
+  "name": "二号线 天城区官厅",
+  "icon": "waypoint-normal.png",
+  "x": -1977,
+  "y": 46,
+  "z": -103,
+  "r": 255,
+  "g": 255,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

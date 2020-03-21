@@ -1,0 +1,18 @@
+{
+  "id": "KA 贾巴斯沃客_531,72,2371",
+  "name": "KA 贾巴斯沃客",
+  "icon": "waypoint-normal.png",
+  "x": 531,
+  "y": 72,
+  "z": 2371,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

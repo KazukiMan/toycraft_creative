@@ -1,0 +1,18 @@
+{
+  "id": "大老鼠机场 36_1046,72,365",
+  "name": "大老鼠机场 36",
+  "icon": "waypoint-normal.png",
+  "x": 1046,
+  "y": 72,
+  "z": 365,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

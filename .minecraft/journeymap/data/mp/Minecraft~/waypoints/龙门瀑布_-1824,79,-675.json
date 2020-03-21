@@ -1,0 +1,18 @@
+{
+  "id": "龙门瀑布_-1824,79,-675",
+  "name": "龙门瀑布",
+  "icon": "waypoint-normal.png",
+  "x": -1824,
+  "y": 79,
+  "z": -675,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

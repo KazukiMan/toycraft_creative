@@ -1,0 +1,18 @@
+{
+  "id": "魔法学院 对战室_280,53,3297",
+  "name": "魔法学院 对战室",
+  "icon": "waypoint-normal.png",
+  "x": 280,
+  "y": 53,
+  "z": 3297,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

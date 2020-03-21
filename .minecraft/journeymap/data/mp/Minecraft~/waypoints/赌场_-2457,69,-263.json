@@ -1,0 +1,18 @@
+{
+  "id": "赌场_-2457,69,-263",
+  "name": "赌场",
+  "icon": "waypoint-normal.png",
+  "x": -2457,
+  "y": 69,
+  "z": -263,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

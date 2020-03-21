@@ -1,0 +1,18 @@
+{
+  "id": "太平湖泛舟_-2262,63,-275",
+  "name": "太平湖泛舟",
+  "icon": "waypoint-normal.png",
+  "x": -2262,
+  "y": 63,
+  "z": -275,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "一号线 要塞门_904,71,880",
+  "name": "一号线 要塞门",
+  "icon": "waypoint-normal.png",
+  "x": 904,
+  "y": 71,
+  "z": 880,
+  "r": 206,
+  "g": 144,
+  "b": 79,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

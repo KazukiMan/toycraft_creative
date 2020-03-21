@@ -1,0 +1,18 @@
+{
+  "id": "一号线 博物馆_-1555,60,-133",
+  "name": "一号线 博物馆",
+  "icon": "waypoint-normal.png",
+  "x": -1555,
+  "y": 60,
+  "z": -133,
+  "r": 255,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

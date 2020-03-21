@@ -1,0 +1,18 @@
+{
+  "id": "众神议事堂_-1581,71,-291",
+  "name": "众神议事堂",
+  "icon": "waypoint-normal.png",
+  "x": -1581,
+  "y": 71,
+  "z": -291,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "伏羲庙_-1740,91,-593",
+  "name": "伏羲庙",
+  "icon": "waypoint-normal.png",
+  "x": -1740,
+  "y": 91,
+  "z": -593,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

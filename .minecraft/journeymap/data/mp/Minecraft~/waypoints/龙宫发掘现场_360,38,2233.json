@@ -1,0 +1,18 @@
+{
+  "id": "龙宫发掘现场_360,38,2233",
+  "name": "龙宫发掘现场",
+  "icon": "waypoint-normal.png",
+  "x": 360,
+  "y": 38,
+  "z": 2233,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

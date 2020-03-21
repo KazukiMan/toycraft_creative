@@ -1,0 +1,18 @@
+{
+  "id": "离心车间_-2060,68,213",
+  "name": "离心车间",
+  "icon": "waypoint-normal.png",
+  "x": -2060,
+  "y": 68,
+  "z": 213,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

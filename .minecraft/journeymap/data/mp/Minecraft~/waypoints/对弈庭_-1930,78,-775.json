@@ -1,0 +1,18 @@
+{
+  "id": "对弈庭_-1930,78,-775",
+  "name": "对弈庭",
+  "icon": "waypoint-normal.png",
+  "x": -1930,
+  "y": 78,
+  "z": -775,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

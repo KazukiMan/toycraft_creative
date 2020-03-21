@@ -1,0 +1,18 @@
+{
+  "id": "万神殿_-1623,81,-508",
+  "name": "万神殿",
+  "icon": "waypoint-normal.png",
+  "x": -1623,
+  "y": 81,
+  "z": -508,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

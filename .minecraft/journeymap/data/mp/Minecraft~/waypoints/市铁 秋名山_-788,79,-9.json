@@ -1,0 +1,16 @@
+{
+  "id": "市铁 秋名山_-788,79,-9",
+  "name": "市铁 秋名山",
+  "icon": "waypoint-normal.png",
+  "x": -788,
+  "y": 79,
+  "z": -9,
+  "r": 128,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [],
+  "persistent": true
+}

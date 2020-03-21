@@ -1,0 +1,18 @@
+{
+  "id": "KA 星川空港_-392,73,2687",
+  "name": "KA 星川空港",
+  "icon": "waypoint-normal.png",
+  "x": -392,
+  "y": 73,
+  "z": 2687,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

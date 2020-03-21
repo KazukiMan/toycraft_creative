@@ -1,0 +1,18 @@
+{
+  "id": "神宫山村_-1862,70,-477",
+  "name": "神宫山村",
+  "icon": "waypoint-normal.png",
+  "x": -1862,
+  "y": 70,
+  "z": -477,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

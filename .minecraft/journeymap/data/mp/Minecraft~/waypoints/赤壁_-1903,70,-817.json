@@ -1,0 +1,18 @@
+{
+  "id": "赤壁_-1903,70,-817",
+  "name": "赤壁",
+  "icon": "waypoint-normal.png",
+  "x": -1903,
+  "y": 70,
+  "z": -817,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

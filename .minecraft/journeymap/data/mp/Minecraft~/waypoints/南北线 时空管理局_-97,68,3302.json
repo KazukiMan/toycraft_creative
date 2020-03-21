@@ -1,0 +1,18 @@
+{
+  "id": "南北线 时空管理局_-97,68,3302",
+  "name": "南北线 时空管理局",
+  "icon": "waypoint-normal.png",
+  "x": -97,
+  "y": 68,
+  "z": 3302,
+  "r": 102,
+  "g": 204,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

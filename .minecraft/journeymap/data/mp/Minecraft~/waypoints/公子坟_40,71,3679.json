@@ -1,0 +1,18 @@
+{
+  "id": "公子坟_40,71,3679",
+  "name": "公子坟",
+  "icon": "waypoint-normal.png",
+  "x": 40,
+  "y": 71,
+  "z": 3679,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

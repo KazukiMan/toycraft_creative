@@ -1,0 +1,18 @@
+{
+  "id": "大图书馆_869,70,3708",
+  "name": "大图书馆",
+  "icon": "waypoint-normal.png",
+  "x": 869,
+  "y": 70,
+  "z": 3708,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

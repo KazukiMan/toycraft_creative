@@ -1,0 +1,18 @@
+{
+  "id": "二号线 西秋明_-1030,50,-80",
+  "name": "二号线 西秋明",
+  "icon": "waypoint-normal.png",
+  "x": -1030,
+  "y": 50,
+  "z": -80,
+  "r": 255,
+  "g": 255,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "(高等部)魔法对战室_97,70,3250",
+  "name": "(高等部)魔法对战室",
+  "icon": "waypoint-normal.png",
+  "x": 97,
+  "y": 70,
+  "z": 3250,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

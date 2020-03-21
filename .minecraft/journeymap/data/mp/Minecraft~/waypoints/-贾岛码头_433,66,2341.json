@@ -1,0 +1,18 @@
+{
+  "id": "-贾岛码头_433,66,2341",
+  "name": "-贾岛码头",
+  "icon": "waypoint-normal.png",
+  "x": 433,
+  "y": 66,
+  "z": 2341,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

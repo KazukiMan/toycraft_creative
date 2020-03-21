@@ -1,0 +1,18 @@
+{
+  "id": "KA 学园都市_517,75,2874",
+  "name": "KA 学园都市",
+  "icon": "waypoint-normal.png",
+  "x": 517,
+  "y": 75,
+  "z": 2874,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

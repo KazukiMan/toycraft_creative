@@ -1,0 +1,18 @@
+{
+  "id": "塘畿区图书馆_96,68,2313",
+  "name": "塘畿区图书馆",
+  "icon": "waypoint-normal.png",
+  "x": 96,
+  "y": 68,
+  "z": 2313,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

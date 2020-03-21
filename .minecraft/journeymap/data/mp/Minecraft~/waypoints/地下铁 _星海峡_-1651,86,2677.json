@@ -1,0 +1,18 @@
+{
+  "id": "地下铁 ?星海峡_-1651,86,2677",
+  "name": "地下铁 ?星海峡",
+  "icon": "waypoint-normal.png",
+  "x": -1651,
+  "y": 86,
+  "z": 2677,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

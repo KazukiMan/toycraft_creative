@@ -1,0 +1,18 @@
+{
+  "id": "鸭蛋湖核电站_-2506,66,-488",
+  "name": "鸭蛋湖核电站",
+  "icon": "waypoint-normal.png",
+  "x": -2506,
+  "y": 66,
+  "z": -488,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第零航站楼_-1677,67,4566",
+  "name": "八神空港第零航站楼",
+  "icon": "waypoint-normal.png",
+  "x": -1677,
+  "y": 67,
+  "z": 4566,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

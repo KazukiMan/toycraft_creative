@@ -1,0 +1,18 @@
+{
+  "id": "中学部_123,87,3396",
+  "name": "中学部",
+  "icon": "waypoint-normal.png",
+  "x": 123,
+  "y": 87,
+  "z": 3396,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

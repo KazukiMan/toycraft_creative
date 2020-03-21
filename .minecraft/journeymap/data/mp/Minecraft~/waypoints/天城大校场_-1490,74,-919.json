@@ -1,0 +1,18 @@
+{
+  "id": "天城大校场_-1490,74,-919",
+  "name": "天城大校场",
+  "icon": "waypoint-normal.png",
+  "x": -1490,
+  "y": 74,
+  "z": -919,
+  "r": 54,
+  "g": 254,
+  "b": 33,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

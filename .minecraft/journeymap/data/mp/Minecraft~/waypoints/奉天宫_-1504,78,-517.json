@@ -1,0 +1,18 @@
+{
+  "id": "奉天宫_-1504,78,-517",
+  "name": "奉天宫",
+  "icon": "waypoint-normal.png",
+  "x": -1504,
+  "y": 78,
+  "z": -517,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

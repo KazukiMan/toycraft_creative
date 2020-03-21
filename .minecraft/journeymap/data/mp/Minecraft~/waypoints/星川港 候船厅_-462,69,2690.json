@@ -1,0 +1,18 @@
+{
+  "id": "星川港 候船厅_-462,69,2690",
+  "name": "星川港 候船厅",
+  "icon": "waypoint-normal.png",
+  "x": -462,
+  "y": 69,
+  "z": 2690,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

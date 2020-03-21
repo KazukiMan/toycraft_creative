@@ -1,0 +1,18 @@
+{
+  "id": "神学院_208,67,2901",
+  "name": "神学院",
+  "icon": "waypoint-normal.png",
+  "x": 208,
+  "y": 67,
+  "z": 2901,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

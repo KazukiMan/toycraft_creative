@@ -1,0 +1,16 @@
+{
+  "id": "秋名山口_-659,77,-36",
+  "name": "秋名山口",
+  "icon": "waypoint-normal.png",
+  "x": -659,
+  "y": 77,
+  "z": -36,
+  "r": 128,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [],
+  "persistent": true
+}

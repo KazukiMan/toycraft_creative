@@ -1,0 +1,18 @@
+{
+  "id": "国会议事堂 参议院_253,71,3580",
+  "name": "国会议事堂 参议院",
+  "icon": "waypoint-normal.png",
+  "x": 253,
+  "y": 71,
+  "z": 3580,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

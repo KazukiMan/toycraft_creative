@@ -1,0 +1,18 @@
+{
+  "id": "西奉天台_221,70,3864",
+  "name": "西奉天台",
+  "icon": "waypoint-normal.png",
+  "x": 221,
+  "y": 70,
+  "z": 3864,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

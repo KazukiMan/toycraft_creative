@@ -1,0 +1,18 @@
+{
+  "id": "KA 近畿_-395,79,2085",
+  "name": "KA 近畿",
+  "icon": "waypoint-normal.png",
+  "x": -395,
+  "y": 79,
+  "z": 2085,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

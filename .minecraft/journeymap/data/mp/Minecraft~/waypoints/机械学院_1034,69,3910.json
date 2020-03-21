@@ -1,0 +1,18 @@
+{
+  "id": "机械学院_1034,69,3910",
+  "name": "机械学院",
+  "icon": "waypoint-normal.png",
+  "x": 1034,
+  "y": 69,
+  "z": 3910,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

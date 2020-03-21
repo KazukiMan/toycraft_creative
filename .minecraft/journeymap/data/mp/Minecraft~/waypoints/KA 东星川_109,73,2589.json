@@ -1,0 +1,18 @@
+{
+  "id": "KA 东星川_109,73,2589",
+  "name": "KA 东星川",
+  "icon": "waypoint-normal.png",
+  "x": 109,
+  "y": 73,
+  "z": 2589,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

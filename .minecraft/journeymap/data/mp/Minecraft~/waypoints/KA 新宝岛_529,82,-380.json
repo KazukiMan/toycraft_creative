@@ -1,0 +1,18 @@
+{
+  "id": "KA 新宝岛_529,82,-380",
+  "name": "KA 新宝岛",
+  "icon": "waypoint-normal.png",
+  "x": 529,
+  "y": 82,
+  "z": -380,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

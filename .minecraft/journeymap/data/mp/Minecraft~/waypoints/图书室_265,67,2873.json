@@ -1,0 +1,18 @@
+{
+  "id": "图书室_265,67,2873",
+  "name": "图书室",
+  "icon": "waypoint-normal.png",
+  "x": 265,
+  "y": 67,
+  "z": 2873,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

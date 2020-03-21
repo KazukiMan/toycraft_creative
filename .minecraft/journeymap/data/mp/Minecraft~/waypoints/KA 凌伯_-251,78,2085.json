@@ -1,0 +1,18 @@
+{
+  "id": "KA 凌伯_-251,78,2085",
+  "name": "KA 凌伯",
+  "icon": "waypoint-normal.png",
+  "x": -251,
+  "y": 78,
+  "z": 2085,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

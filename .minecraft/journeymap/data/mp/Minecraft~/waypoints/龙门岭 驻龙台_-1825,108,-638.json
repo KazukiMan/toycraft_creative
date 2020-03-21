@@ -1,0 +1,18 @@
+{
+  "id": "龙门岭 驻龙台_-1825,108,-638",
+  "name": "龙门岭 驻龙台",
+  "icon": "waypoint-normal.png",
+  "x": -1825,
+  "y": 108,
+  "z": -638,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

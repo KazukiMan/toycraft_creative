@@ -1,0 +1,18 @@
+{
+  "id": "高等部 美术科_361,72,3379",
+  "name": "高等部 美术科",
+  "icon": "waypoint-normal.png",
+  "x": 361,
+  "y": 72,
+  "z": 3379,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

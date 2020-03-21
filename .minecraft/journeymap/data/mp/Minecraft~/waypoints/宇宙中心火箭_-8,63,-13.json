@@ -1,0 +1,18 @@
+{
+  "id": "宇宙中心火箭_-8,63,-13",
+  "name": "宇宙中心火箭",
+  "icon": "waypoint-normal.png",
+  "x": -8,
+  "y": 63,
+  "z": -13,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

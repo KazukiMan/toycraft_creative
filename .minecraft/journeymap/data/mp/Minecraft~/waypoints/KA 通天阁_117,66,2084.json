@@ -1,0 +1,18 @@
+{
+  "id": "KA 通天阁_117,66,2084",
+  "name": "KA 通天阁",
+  "icon": "waypoint-normal.png",
+  "x": 117,
+  "y": 66,
+  "z": 2084,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

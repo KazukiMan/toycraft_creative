@@ -1,0 +1,18 @@
+{
+  "id": "老鼠办公楼_818,65,257",
+  "name": "老鼠办公楼",
+  "icon": "waypoint-normal.png",
+  "x": 818,
+  "y": 65,
+  "z": 257,
+  "r": 0,
+  "g": 160,
+  "b": 145,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

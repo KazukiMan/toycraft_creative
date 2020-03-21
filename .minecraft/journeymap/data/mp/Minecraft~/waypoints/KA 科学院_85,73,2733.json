@@ -1,0 +1,18 @@
+{
+  "id": "KA 科学院_85,73,2733",
+  "name": "KA 科学院",
+  "icon": "waypoint-normal.png",
+  "x": 85,
+  "y": 73,
+  "z": 2733,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

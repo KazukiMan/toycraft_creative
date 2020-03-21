@@ -1,0 +1,18 @@
+{
+  "id": "一号线 北宫门_-1517,56,-659",
+  "name": "一号线 北宫门",
+  "icon": "waypoint-normal.png",
+  "x": -1517,
+  "y": 56,
+  "z": -659,
+  "r": 255,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

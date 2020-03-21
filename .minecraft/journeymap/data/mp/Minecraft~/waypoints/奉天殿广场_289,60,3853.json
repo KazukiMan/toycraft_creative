@@ -1,0 +1,18 @@
+{
+  "id": "奉天殿广场_289,60,3853",
+  "name": "奉天殿广场",
+  "icon": "waypoint-normal.png",
+  "x": 289,
+  "y": 60,
+  "z": 3853,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "天城工学院_-2382,72,-34",
+  "name": "天城工学院",
+  "icon": "waypoint-normal.png",
+  "x": -2382,
+  "y": 72,
+  "z": -34,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

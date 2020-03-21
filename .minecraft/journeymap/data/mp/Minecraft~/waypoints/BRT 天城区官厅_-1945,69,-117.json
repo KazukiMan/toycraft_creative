@@ -1,0 +1,18 @@
+{
+  "id": "BRT 天城区官厅_-1945,69,-117",
+  "name": "BRT 天城区官厅",
+  "icon": "waypoint-normal.png",
+  "x": -1945,
+  "y": 69,
+  "z": -117,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

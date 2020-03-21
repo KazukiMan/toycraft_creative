@@ -1,0 +1,18 @@
+{
+  "id": "星川区官厅_70,103,2620",
+  "name": "星川区官厅",
+  "icon": "waypoint-normal.png",
+  "x": 70,
+  "y": 103,
+  "z": 2620,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

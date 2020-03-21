@@ -1,0 +1,18 @@
+{
+  "id": "纯亦庄园_-836,64,731",
+  "name": "纯亦庄园",
+  "icon": "waypoint-normal.png",
+  "x": -836,
+  "y": 64,
+  "z": 731,
+  "r": 206,
+  "g": 108,
+  "b": 201,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

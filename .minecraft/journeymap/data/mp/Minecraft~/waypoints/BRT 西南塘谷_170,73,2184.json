@@ -1,0 +1,18 @@
+{
+  "id": "BRT 西南塘谷_170,73,2184",
+  "name": "BRT 西南塘谷",
+  "icon": "waypoint-normal.png",
+  "x": 170,
+  "y": 73,
+  "z": 2184,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

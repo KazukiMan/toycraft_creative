@@ -1,0 +1,18 @@
+{
+  "id": "F1赛车_-2429,81,-377",
+  "name": "F1赛车",
+  "icon": "waypoint-normal.png",
+  "x": -2429,
+  "y": 81,
+  "z": -377,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

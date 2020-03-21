@@ -1,0 +1,18 @@
+{
+  "id": "轩辕城(轩辕宫)_-1511,75,-611",
+  "name": "轩辕城(轩辕宫)",
+  "icon": "waypoint-normal.png",
+  "x": -1511,
+  "y": 75,
+  "z": -611,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

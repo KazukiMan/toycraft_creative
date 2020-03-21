@@ -1,0 +1,18 @@
+{
+  "id": "蘑菇塔_-251,65,256",
+  "name": "蘑菇塔",
+  "icon": "waypoint-normal.png",
+  "x": -251,
+  "y": 65,
+  "z": 256,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

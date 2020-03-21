@@ -1,0 +1,18 @@
+{
+  "id": "下野野生动物园_-1256,68,-64",
+  "name": "下野野生动物园",
+  "icon": "waypoint-normal.png",
+  "x": -1256,
+  "y": 68,
+  "z": -64,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

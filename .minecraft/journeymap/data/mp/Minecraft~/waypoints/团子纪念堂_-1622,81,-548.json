@@ -1,0 +1,18 @@
+{
+  "id": "团子纪念堂_-1622,81,-548",
+  "name": "团子纪念堂",
+  "icon": "waypoint-normal.png",
+  "x": -1622,
+  "y": 81,
+  "z": -548,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

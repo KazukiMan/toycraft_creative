@@ -1,0 +1,18 @@
+{
+  "id": "八神空港 塔台_-2571,176,4852",
+  "name": "八神空港 塔台",
+  "icon": "waypoint-normal.png",
+  "x": -2571,
+  "y": 176,
+  "z": 4852,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

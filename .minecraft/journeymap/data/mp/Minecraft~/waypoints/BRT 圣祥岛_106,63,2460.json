@@ -1,0 +1,18 @@
+{
+  "id": "BRT 圣祥岛_106,63,2460",
+  "name": "BRT 圣祥岛",
+  "icon": "waypoint-normal.png",
+  "x": 106,
+  "y": 63,
+  "z": 2460,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

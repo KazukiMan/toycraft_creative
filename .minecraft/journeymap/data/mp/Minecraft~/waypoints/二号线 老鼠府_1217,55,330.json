@@ -1,0 +1,18 @@
+{
+  "id": "二号线 老鼠府_1217,55,330",
+  "name": "二号线 老鼠府",
+  "icon": "waypoint-normal.png",
+  "x": 1217,
+  "y": 55,
+  "z": 330,
+  "r": 230,
+  "g": 208,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

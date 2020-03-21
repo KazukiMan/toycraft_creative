@@ -1,0 +1,18 @@
+{
+  "id": "BRT 圣祥路口西_-12,68,2482",
+  "name": "BRT 圣祥路口西",
+  "icon": "waypoint-normal.png",
+  "x": -12,
+  "y": 68,
+  "z": 2482,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

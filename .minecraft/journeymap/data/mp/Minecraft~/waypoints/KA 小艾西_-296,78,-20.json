@@ -1,0 +1,18 @@
+{
+  "id": "KA 小艾西_-296,78,-20",
+  "name": "KA 小艾西",
+  "icon": "waypoint-normal.png",
+  "x": -296,
+  "y": 78,
+  "z": -20,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

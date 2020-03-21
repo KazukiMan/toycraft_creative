@@ -1,0 +1,18 @@
+{
+  "id": "KA 言诺_-1053,65,-458",
+  "name": "KA 言诺",
+  "icon": "waypoint-normal.png",
+  "x": -1053,
+  "y": 65,
+  "z": -458,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

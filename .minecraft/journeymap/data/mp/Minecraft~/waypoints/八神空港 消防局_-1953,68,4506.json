@@ -1,0 +1,18 @@
+{
+  "id": "八神空港 消防局_-1953,68,4506",
+  "name": "八神空港 消防局",
+  "icon": "waypoint-normal.png",
+  "x": -1953,
+  "y": 68,
+  "z": 4506,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

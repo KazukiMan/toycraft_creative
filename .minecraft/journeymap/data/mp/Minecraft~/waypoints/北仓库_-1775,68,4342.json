@@ -1,0 +1,18 @@
+{
+  "id": "北仓库_-1775,68,4342",
+  "name": "北仓库",
+  "icon": "waypoint-normal.png",
+  "x": -1775,
+  "y": 68,
+  "z": 4342,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

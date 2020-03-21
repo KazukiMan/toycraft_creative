@@ -1,0 +1,18 @@
+{
+  "id": "KA 新老鼠乐平_1081,74,658",
+  "name": "KA 新老鼠乐平",
+  "icon": "waypoint-normal.png",
+  "x": 1081,
+  "y": 74,
+  "z": 658,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

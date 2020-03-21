@@ -1,0 +1,18 @@
+{
+  "id": "BRT 天城站场_-1916,67,-79",
+  "name": "BRT 天城站场",
+  "icon": "waypoint-normal.png",
+  "x": -1916,
+  "y": 67,
+  "z": -79,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

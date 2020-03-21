@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第二航站楼(国际线)_-2196,69,4481",
+  "name": "八神空港第二航站楼(国际线)",
+  "icon": "waypoint-normal.png",
+  "x": -2196,
+  "y": 69,
+  "z": 4481,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

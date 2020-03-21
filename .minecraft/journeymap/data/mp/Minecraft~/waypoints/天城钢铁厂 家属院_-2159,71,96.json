@@ -1,0 +1,18 @@
+{
+  "id": "天城钢铁厂 家属院_-2159,71,96",
+  "name": "天城钢铁厂 家属院",
+  "icon": "waypoint-normal.png",
+  "x": -2159,
+  "y": 71,
+  "z": 96,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

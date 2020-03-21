@@ -1,0 +1,18 @@
+{
+  "id": "奏雪神社(团子分社)_16,75,3450",
+  "name": "奏雪神社(团子分社)",
+  "icon": "waypoint-normal.png",
+  "x": 16,
+  "y": 75,
+  "z": 3450,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

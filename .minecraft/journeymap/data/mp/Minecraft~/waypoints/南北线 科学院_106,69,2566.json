@@ -1,0 +1,18 @@
+{
+  "id": "南北线 科学院_106,69,2566",
+  "name": "南北线 科学院",
+  "icon": "waypoint-normal.png",
+  "x": 106,
+  "y": 69,
+  "z": 2566,
+  "r": 102,
+  "g": 204,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

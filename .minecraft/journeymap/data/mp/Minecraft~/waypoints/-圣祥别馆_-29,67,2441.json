@@ -1,0 +1,18 @@
+{
+  "id": "-圣祥别馆_-29,67,2441",
+  "name": "-圣祥别馆",
+  "icon": "waypoint-normal.png",
+  "x": -29,
+  "y": 67,
+  "z": 2441,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

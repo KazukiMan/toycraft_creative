@@ -1,0 +1,18 @@
+{
+  "id": "言诺神社_-926,72,-361",
+  "name": "言诺神社",
+  "icon": "waypoint-normal.png",
+  "x": -926,
+  "y": 72,
+  "z": -361,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

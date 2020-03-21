@@ -1,0 +1,18 @@
+{
+  "id": "栖凤池_-1791,86,-684",
+  "name": "栖凤池",
+  "icon": "waypoint-normal.png",
+  "x": -1791,
+  "y": 86,
+  "z": -684,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

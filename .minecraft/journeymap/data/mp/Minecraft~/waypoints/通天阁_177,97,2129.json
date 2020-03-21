@@ -1,0 +1,18 @@
+{
+  "id": "通天阁_177,97,2129",
+  "name": "通天阁",
+  "icon": "waypoint-normal.png",
+  "x": 177,
+  "y": 97,
+  "z": 2129,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

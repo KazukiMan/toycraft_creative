@@ -1,0 +1,18 @@
+{
+  "id": "共工庙_-1773,90,-650",
+  "name": "共工庙",
+  "icon": "waypoint-normal.png",
+  "x": -1773,
+  "y": 90,
+  "z": -650,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

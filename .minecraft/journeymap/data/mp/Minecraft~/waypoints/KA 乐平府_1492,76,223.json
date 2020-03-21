@@ -1,0 +1,18 @@
+{
+  "id": "KA 乐平府_1492,76,223",
+  "name": "KA 乐平府",
+  "icon": "waypoint-normal.png",
+  "x": 1492,
+  "y": 76,
+  "z": 223,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

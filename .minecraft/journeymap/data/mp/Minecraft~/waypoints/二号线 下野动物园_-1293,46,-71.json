@@ -1,0 +1,18 @@
+{
+  "id": "二号线 下野动物园_-1293,46,-71",
+  "name": "二号线 下野动物园",
+  "icon": "waypoint-normal.png",
+  "x": -1293,
+  "y": 46,
+  "z": -71,
+  "r": 255,
+  "g": 255,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

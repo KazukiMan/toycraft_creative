@@ -1,0 +1,18 @@
+{
+  "id": "昆仑山 圣王殿_-1792,106,-766",
+  "name": "昆仑山 圣王殿",
+  "icon": "waypoint-normal.png",
+  "x": -1792,
+  "y": 106,
+  "z": -766,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

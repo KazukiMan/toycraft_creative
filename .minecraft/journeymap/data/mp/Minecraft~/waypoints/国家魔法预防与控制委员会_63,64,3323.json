@@ -1,0 +1,18 @@
+{
+  "id": "国家魔法预防与控制委员会_63,64,3323",
+  "name": "国家魔法预防与控制委员会",
+  "icon": "waypoint-normal.png",
+  "x": 63,
+  "y": 64,
+  "z": 3323,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

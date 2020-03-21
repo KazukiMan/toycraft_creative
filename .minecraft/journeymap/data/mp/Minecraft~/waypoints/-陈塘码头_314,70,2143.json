@@ -1,0 +1,18 @@
+{
+  "id": "-陈塘码头_314,70,2143",
+  "name": "-陈塘码头",
+  "icon": "waypoint-normal.png",
+  "x": 314,
+  "y": 70,
+  "z": 2143,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

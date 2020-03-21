@@ -1,0 +1,18 @@
+{
+  "id": "KA 团子_-24,68,3652",
+  "name": "KA 团子",
+  "icon": "waypoint-normal.png",
+  "x": -24,
+  "y": 68,
+  "z": 3652,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

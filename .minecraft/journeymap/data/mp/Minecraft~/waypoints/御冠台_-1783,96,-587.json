@@ -1,0 +1,18 @@
+{
+  "id": "御冠台_-1783,96,-587",
+  "name": "御冠台",
+  "icon": "waypoint-normal.png",
+  "x": -1783,
+  "y": 96,
+  "z": -587,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "主楼_800,71,3911",
+  "name": "主楼",
+  "icon": "waypoint-normal.png",
+  "x": 800,
+  "y": 71,
+  "z": 3911,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

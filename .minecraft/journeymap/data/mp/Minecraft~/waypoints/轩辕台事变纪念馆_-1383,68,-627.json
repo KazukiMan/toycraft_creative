@@ -1,0 +1,18 @@
+{
+  "id": "轩辕台事变纪念馆_-1383,68,-627",
+  "name": "轩辕台事变纪念馆",
+  "icon": "waypoint-normal.png",
+  "x": -1383,
+  "y": 68,
+  "z": -627,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

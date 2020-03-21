@@ -1,0 +1,18 @@
+{
+  "id": "轩辕台古校场_-1407,72,-550",
+  "name": "轩辕台古校场",
+  "icon": "waypoint-normal.png",
+  "x": -1407,
+  "y": 72,
+  "z": -550,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

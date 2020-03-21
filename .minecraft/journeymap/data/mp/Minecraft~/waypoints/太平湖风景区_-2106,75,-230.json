@@ -1,0 +1,18 @@
+{
+  "id": "太平湖风景区_-2106,75,-230",
+  "name": "太平湖风景区",
+  "icon": "waypoint-normal.png",
+  "x": -2106,
+  "y": 75,
+  "z": -230,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

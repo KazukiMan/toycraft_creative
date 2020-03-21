@@ -1,0 +1,18 @@
+{
+  "id": "KA 青森_730,69,216",
+  "name": "KA 青森",
+  "icon": "waypoint-normal.png",
+  "x": 730,
+  "y": 69,
+  "z": 216,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "圣夜殿_359,70,3795",
+  "name": "圣夜殿",
+  "icon": "waypoint-normal.png",
+  "x": 359,
+  "y": 70,
+  "z": 3795,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

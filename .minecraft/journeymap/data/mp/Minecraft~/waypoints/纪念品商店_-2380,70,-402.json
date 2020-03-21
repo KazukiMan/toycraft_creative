@@ -1,0 +1,18 @@
+{
+  "id": "纪念品商店_-2380,70,-402",
+  "name": "纪念品商店",
+  "icon": "waypoint-normal.png",
+  "x": -2380,
+  "y": 70,
+  "z": -402,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

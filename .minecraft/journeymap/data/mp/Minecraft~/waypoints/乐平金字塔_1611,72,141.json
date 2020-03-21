@@ -1,0 +1,18 @@
+{
+  "id": "乐平金字塔_1611,72,141",
+  "name": "乐平金字塔",
+  "icon": "waypoint-normal.png",
+  "x": 1611,
+  "y": 72,
+  "z": 141,
+  "r": 122,
+  "g": 89,
+  "b": 222,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

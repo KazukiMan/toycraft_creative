@@ -1,0 +1,18 @@
+{
+  "id": "万华殿 首相官邸_403,70,3673",
+  "name": "万华殿 首相官邸",
+  "icon": "waypoint-normal.png",
+  "x": 403,
+  "y": 70,
+  "z": 3673,
+  "r": 255,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

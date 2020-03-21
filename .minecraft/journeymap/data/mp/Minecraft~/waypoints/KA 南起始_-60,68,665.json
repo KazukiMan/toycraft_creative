@@ -1,0 +1,18 @@
+{
+  "id": "KA 南起始_-60,68,665",
+  "name": "KA 南起始",
+  "icon": "waypoint-normal.png",
+  "x": -60,
+  "y": 68,
+  "z": 665,
+  "r": 0,
+  "g": 128,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

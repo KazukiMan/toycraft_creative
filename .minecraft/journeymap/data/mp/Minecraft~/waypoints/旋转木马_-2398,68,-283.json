@@ -1,0 +1,18 @@
+{
+  "id": "旋转木马_-2398,68,-283",
+  "name": "旋转木马",
+  "icon": "waypoint-normal.png",
+  "x": -2398,
+  "y": 68,
+  "z": -283,
+  "r": 128,
+  "g": 128,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "天文台_150,83,3357",
+  "name": "天文台",
+  "icon": "waypoint-normal.png",
+  "x": 150,
+  "y": 83,
+  "z": 3357,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "疾風町_8,68,2229",
+  "name": "疾風町",
+  "icon": "waypoint-normal.png",
+  "x": 8,
+  "y": 68,
+  "z": 2229,
+  "r": 255,
+  "g": 128,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

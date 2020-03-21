@@ -1,0 +1,18 @@
+{
+  "id": "补天台_-1856,117,-805",
+  "name": "补天台",
+  "icon": "waypoint-normal.png",
+  "x": -1856,
+  "y": 117,
+  "z": -805,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

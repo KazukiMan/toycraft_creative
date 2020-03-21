@@ -1,0 +1,19 @@
+{
+  "id": "太平湖水坝_-1872,76,-280",
+  "name": "太平湖水坝",
+  "icon": "waypoint-normal.png",
+  "x": -1872,
+  "y": 76,
+  "z": -280,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -1,
+    0
+  ],
+  "persistent": true
+}

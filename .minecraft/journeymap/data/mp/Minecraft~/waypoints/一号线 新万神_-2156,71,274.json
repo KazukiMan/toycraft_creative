@@ -1,0 +1,18 @@
+{
+  "id": "一号线 新万神_-2156,71,274",
+  "name": "一号线 新万神",
+  "icon": "waypoint-normal.png",
+  "x": -2156,
+  "y": 71,
+  "z": 274,
+  "r": 255,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

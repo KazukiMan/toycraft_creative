@@ -1,0 +1,18 @@
+{
+  "id": "BRT 星川空港国际_-298,64,2617",
+  "name": "BRT 星川空港国际",
+  "icon": "waypoint-normal.png",
+  "x": -298,
+  "y": 64,
+  "z": 2617,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

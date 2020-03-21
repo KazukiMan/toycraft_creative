@@ -1,0 +1,18 @@
+{
+  "id": "东西线 北工业园_-2439,80,3688",
+  "name": "东西线 北工业园",
+  "icon": "waypoint-normal.png",
+  "x": -2439,
+  "y": 80,
+  "z": 3688,
+  "r": 255,
+  "g": 0,
+  "b": 128,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

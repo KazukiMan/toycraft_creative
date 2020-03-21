@@ -1,0 +1,18 @@
+{
+  "id": "二号线 小白聚落_901,55,731",
+  "name": "二号线 小白聚落",
+  "icon": "waypoint-normal.png",
+  "x": 901,
+  "y": 55,
+  "z": 731,
+  "r": 230,
+  "g": 208,
+  "b": 148,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

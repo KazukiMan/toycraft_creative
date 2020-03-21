@@ -1,0 +1,18 @@
+{
+  "id": "洗矿池_-2059,69,131",
+  "name": "洗矿池",
+  "icon": "waypoint-normal.png",
+  "x": -2059,
+  "y": 69,
+  "z": 131,
+  "r": 183,
+  "g": 224,
+  "b": 226,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

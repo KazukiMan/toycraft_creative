@@ -1,0 +1,18 @@
+{
+  "id": "大老鼠机场 航站楼_934,80,408",
+  "name": "大老鼠机场 航站楼",
+  "icon": "waypoint-normal.png",
+  "x": 934,
+  "y": 80,
+  "z": 408,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

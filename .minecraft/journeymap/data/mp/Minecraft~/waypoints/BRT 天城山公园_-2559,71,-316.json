@@ -1,0 +1,18 @@
+{
+  "id": "BRT 天城山公园_-2559,71,-316",
+  "name": "BRT 天城山公园",
+  "icon": "waypoint-normal.png",
+  "x": -2559,
+  "y": 71,
+  "z": -316,
+  "r": 255,
+  "g": 0,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

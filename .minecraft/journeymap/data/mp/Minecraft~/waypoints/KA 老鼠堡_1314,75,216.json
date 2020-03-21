@@ -1,0 +1,18 @@
+{
+  "id": "KA 老鼠堡_1314,75,216",
+  "name": "KA 老鼠堡",
+  "icon": "waypoint-normal.png",
+  "x": 1314,
+  "y": 75,
+  "z": 216,
+  "r": 0,
+  "g": 255,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

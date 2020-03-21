@@ -1,0 +1,18 @@
+{
+  "id": "玄武门_-1800,86,-611",
+  "name": "玄武门",
+  "icon": "waypoint-normal.png",
+  "x": -1800,
+  "y": 86,
+  "z": -611,
+  "r": 255,
+  "g": 128,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

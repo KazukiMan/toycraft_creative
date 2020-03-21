@@ -1,0 +1,18 @@
+{
+  "id": "起始造船厂_-1626,63,881",
+  "name": "起始造船厂",
+  "icon": "waypoint-normal.png",
+  "x": -1626,
+  "y": 63,
+  "z": 881,
+  "r": 232,
+  "g": 184,
+  "b": 169,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

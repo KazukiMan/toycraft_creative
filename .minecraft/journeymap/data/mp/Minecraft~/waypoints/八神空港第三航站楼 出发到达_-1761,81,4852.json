@@ -1,0 +1,18 @@
+{
+  "id": "八神空港第三航站楼 出发到达_-1761,81,4852",
+  "name": "八神空港第三航站楼 出发到达",
+  "icon": "waypoint-normal.png",
+  "x": -1761,
+  "y": 81,
+  "z": 4852,
+  "r": 0,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

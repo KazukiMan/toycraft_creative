@@ -1,0 +1,18 @@
+{
+  "id": "游泳馆_926,68,3814",
+  "name": "游泳馆",
+  "icon": "waypoint-normal.png",
+  "x": 926,
+  "y": 68,
+  "z": 3814,
+  "r": 0,
+  "g": 255,
+  "b": 64,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
