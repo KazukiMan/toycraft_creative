@@ -9,20 +9,6 @@
 这是玩具国计划2.0的官方GitHub，这里将会提供完整的游戏安装及游玩说明。
 
 
-### 地图下载
-[点击下载]()
-
-（我穷，等过段时间有钱了租个廉价的长期VPS再放地图吧）
-
-
-### 服务器专享建筑 mod 项目地址
-[点击进入： Toycraft: A real city simulator for minecraft creative.](https://github.com/KazukiMan/toycraft)
-
-（建设中，诚招合作伙伴，<b>会用鼠标</b>就可以参与项目的！）
-
-
-
-
 ### 加入本服务器代表你遵守如下规则
 0. 熊孩子滚粗！！！
 
@@ -95,6 +81,19 @@ Windows 用户打开 HMCL-3.2.136.exe ，Unix 用户请打开 HMCL-3.2.136.jar �
 （请务必在输入密码时黑屏处理以保证安全）
 
 （当前版本的注册仍然存在bug，将会在下一版本修复）
+
+
+
+### 地图下载
+[点击下载]()
+
+（我穷，等过段时间有钱了租个廉价的长期VPS再放地图吧）
+
+
+### 服务器专享建筑 mod 项目地址
+[点击进入： Toycraft: A real city simulator for minecraft creative.](https://github.com/KazukiMan/toycraft)
+
+（建设中，诚招合作伙伴，<b>会用鼠标</b>就可以参与项目的！）
 
 
 ### 更新说明（老版本）
