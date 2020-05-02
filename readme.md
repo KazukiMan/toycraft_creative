@@ -1,4 +1,4 @@
-版本号： 20200321 (ver 2.0.2 for develop)
+版本号： 20200502 (ver 2.1.0 for develop)
 
 # 玩具国Minecraft建设省 - 玩具国计划2.0
 
@@ -27,7 +27,7 @@
 
 请下载并解压下述文件
 
-[点击下载游戏文件](https://github.com/KazukiMan/toycraft_creative/archive/2.0.1.zip)
+[点击下载游戏文件](https://github.com/KazukiMan/toycraft_creative/archive/2.1.0.zip)
 
 ### 第二步：安装java环境
 
@@ -66,6 +66,8 @@ Windows 用户打开 HMCL-3.2.136.exe ，Unix 用户请打开 HMCL-3.2.136.jar �
 
 ### 第五部：注册
 
+注意：因为mod的bug目前初次登陆需要注册以及每次上线需要登录这一点没有提示
+
 为了保障账号和服务器的安全，以及考虑到部分小伙伴有开直播的可能，服务器在初次登陆时需要使用
 
 `/register 密码 重复密码 `
@@ -82,6 +84,10 @@ Windows 用户打开 HMCL-3.2.136.exe ，Unix 用户请打开 HMCL-3.2.136.jar �
 
 （当前版本的注册仍然存在bug，将会在下一版本修复）
 
+
+### 第六步 海外端口小地图的调整
+
+由于小地图和服务器地址是绑定的，如果使用海外端口登陆，请在`.minecraft/journeymap/data/mp`文件夹下修改文件夹名。将较小文件夹删除，并将 Toycraft~Creative~Server 的文件夹改名为刚才删除的文件夹的名字
 
 
 ### 地图下载
@@ -229,10 +235,22 @@ Windows 用户打开 HMCL-3.2.136.exe ，Unix 用户请打开 HMCL-3.2.136.jar �
 
 2. 修复了生物无法生成的bug
 
-3. 建筑最高高度调整至512
+3. 修复了服务器默认信息的编码乱码问题
 
-4. 修复了服务器默认信息的编码乱码问题
+4. 把方块代码表附到下载的懒人包中
 
-5. 修复皮肤插件、登录插件的bug
 
-6. 把方块代码表附到下载的懒人包中
+#### 20200502更新
+<b>需安装更新包</b>
+
+0. 移除了creeper可能引发接龙的bug(x)，移除了可能出现Herobrine的要素（x）
+
+1. 修复了worldedit CUI的bug
+
+2. 追加了模拟铁路的mod
+
+3. 修复了登录插件的bug，但是引发了新的bug，下次再修
+
+4. 添加了欧洲代理和北美代理
+
+5. 项目重新追加了升级包
