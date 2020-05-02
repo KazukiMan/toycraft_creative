@@ -6,6 +6,9 @@
 
 [点击下载更新包](https://github.com/KazukiMan/toycraft_creative/archive/update2.1.0-2.zip)
 
+将解压后的 toycraft_creative-update2.1.0-2 下所有的文件复制到 toycraft_creative-master （原文件夹）即可
+如果遇到冲突请<b>选择替换</b>
+
 
 #### 20200502更新
 <b>需安装更新包</b>
