@@ -4,7 +4,7 @@
 
 请下载并解压下述文件
 
-[点击下载更新包](https://github.com/KazukiMan/toycraft_creative/archive/update2.1.0.zip)
+[点击下载更新包](https://github.com/KazukiMan/toycraft_creative/archive/update2.1.0-2.zip)
 
 
 #### 20200502更新
