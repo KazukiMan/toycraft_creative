@@ -21,6 +21,13 @@
 4. 请不要滥用mod造成区块卡顿，如有区块卡顿的问题将会删除对应区块
 
 
+
+### 第零步：加群以获得更好游戏体验
+请务必加入下述 telegram 群以获得游戏基础支持和白名单
+
+https://t.me/toycraft_pre
+
+
 ### 第一步：安装java环境
 
 Windows 用户： [点击下载](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8)
