@@ -42,9 +42,9 @@ Linux x64 RPM： [点击下载](https://javadl.oracle.com/webapps/download/AutoD
 ### 第二步：下载游戏文件
 Windows 用户： [点击下载](https://t.me/YatenRadio/3443)
 
-MacOS 用户： [点击下载](https://t.me/YatenRadio/3444)
+MacOS 用户： [点击下载](https://t.me/YatenRadio/3445)
 
-Linux 用户： [点击下载](https://t.me/YatenRadio/3445)
+Linux 用户： [点击下载](https://t.me/YatenRadio/3444)
 
 Windows解压后打开exe文件即可，MacOS用户解压后将app拖拽至Application文件夹即可，Linux用户请自行安装运行python环境，在此特别提供Linux用户的安装使用说明
 
