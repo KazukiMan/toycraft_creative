@@ -5,8 +5,8 @@
 #       Update Assistant Project - a auto update and installer solution for minecraft server update 
 #       By Kazuki Amakawa (github.com/KazukiMan)
 #
-#       main.py
-#       main function of all the programming       
+#       Connect us: Github: https://www.github.com/KazukiMan
+#                   Main: KazukiAmakawa@gmail.com
 #
 #===========================================
 
@@ -23,7 +23,56 @@ import time
 from pathlib import Path
 
 
+
 TOOL_LOCATION = ""
+CONNECT_INFO = "Copyright by Kazuki Amakawa \n Github: https://www.github.com/KazukiMan \n Mail: KazukiAmakawa@gmail.com\n"
+FOR_TEST = True
+
+
+
+class default_setting():
+    def __init__(self):
+        self.VERSION = ""
+        self.DEFAULT_LOC = ""
+        self.DEFAULT_LANG = ""
+        self.WEB_SPONSOR_WEB = ""
+        self.MAIN_SOURCE_JSON_FILE_WEB = ""
+        self.INITIALIZATION_SITE = ""
+
+
+
+    def initialization_setting(self):
+        filename = os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")
+        file = open(filename, "r")
+        line = file.readline()
+        file.close()
+        decoded_hand = json.loads(line)
+
+        self.VERSION = decoded_hand["VERSION"]
+        self.DEFAULT_LOC = decoded_hand["DEFAULT_LOC"]
+        self.DEFAULT_LANG = decoded_hand["DEFAULT_LANG"]
+        self.WEB_SPONSOR_WEB = decoded_hand["WEB_SPONSOR_WEB"]
+        self.MAIN_SOURCE_JSON_FILE_WEB = decoded_hand["MAIN_SOURCE_JSON_FILE_WEB"]
+        self.INITIALIZATION_SITE = decoded_hand["INITIALIZATION_SITE"]
+
+
+    def refresh_setting(self):
+        data = []
+        data.append({
+            "VERSION": self.VERSION,
+            "DEFAULT_LOC": self.DEFAULT_LOC,
+            "DEFAULT_LANG": self.DEFAULT_LANG,
+            "WEB_SPONSOR_WEB": self.WEB_SPONSOR_WEB,
+            "MAIN_SOURCE_JSON_FILE_WEB": self.MAIN_SOURCE_JSON_FILE_WEB,
+            "INITIALIZATION_SITE": self.INITIALIZATION_SITE
+            })
+        
+        filename = os.path.join(TOOL_LOCATION, ".inits","default_setting.json")
+        with open(filename, "w") as file:
+            json.dump(data[0], file)
+
+        self.initialization_setting()
+SETTING = default_setting()
 
 
 
@@ -74,18 +123,6 @@ def SystemJudge():
 
 
 
-
-
-
-
-
-
-
-
-
-"""
-PRE-TRETMENT FUNCTION
-"""
 def pre_read_json(filename):
     file = open(filename, "r", encoding="utf-8")
     str_json = ""
@@ -113,18 +150,6 @@ def read_package_list_json(package_list_loc):
         package_info.append(decoded_hand["package_list"][i]["package_info"])
         latest_site.append(decoded_hand["package_list"][i]["latest_list"])
     return package_name, package_site, package_info, latest_site
-
-
-
-def check_default_route_exists():
-    if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "default_loc")):
-        return ""
-    else:
-        filename = os.path.join(TOOL_LOCATION, ".inits", "default_loc")
-        file = open(filename, "r", encoding="utf-8")
-        line = file.readline()
-        file.close()
-        return line
 
 
 
@@ -221,8 +246,6 @@ def operation_main_function(command_list, client_route):
 
 
 
-
-
 def get_version_and_json(jsonfile_location):
     strJson = pre_read_json(jsonfile_location)
     decoded_hand = json.loads(strJson)
@@ -242,20 +265,14 @@ def read_todo_json(jsonfile_location):
 
 
 
-
-
-
-
-
-
-
-
 class LANG_CLASS():
     def __init__(self):
+        global SETTING
+
         self.STR_LANGUAGE_NAME_ASSETS = []
         self.STR_LANGUAGE_LOCATION = []
 
-        self.NAME_CODE = 0
+        self.NAME_CODE = int(SETTING.DEFAULT_LANG)
 
         self.STR_LANGUAGE_NAME = ""
         self.STR_NOT_CONNECT = ""
@@ -290,9 +307,6 @@ class LANG_CLASS():
         self.STR_UPDATE_TITLE = ""
         self.STR_UPDATE = ""
         self.STR_UPDATE_END = ""
-
-        self.WEB_SPONSOR_WEB = ""
-        self.MAIN_SOURCE_JSON_FILE_WEB = ""
 
 
 
@@ -335,25 +349,9 @@ class LANG_CLASS():
         self.STR_UPDATE = decoded_hand["STR_UPDATE"]
         self.STR_UPDATE_END = decoded_hand["STR_UPDATE_END"]
 
-        self.WEB_SPONSOR_WEB = decoded_hand["WEB_SPONSOR_WEB"]
-        self.MAIN_SOURCE_JSON_FILE_WEB = decoded_hand["MAIN_SOURCE_JSON_FILE_WEB"]
-
 
 
     def init_language_setting(self):
-        filename = "default_lang"
-        file = open(os.path.join(TOOL_LOCATION, ".inits", filename), "r", encoding="utf-8")
-        line = file.readline()
-        file.close()
-        try:
-            self.NAME_CODE = int(line)
-        except:
-            self.NAME_CODE = 0
-            print("cnmb")
-            file = open(os.path.join(TOOL_LOCATION, ".inits", filename), "w", encoding="utf-8")
-            file.write("0")
-            file.close()
-        print("SB!!")
         dir_name = os.path.join(TOOL_LOCATION, ".inits", "languages")
         for parent, dirs, files in os.walk(dir_name):
             for file in files:
@@ -366,21 +364,14 @@ class LANG_CLASS():
 
 
 
-
-
-
-
-
-
 class MainWindow(QtWidgets.QWidget):
-    def __init__(self, package_name, package_info, package_loc, latest_loc, latest_site, default_route, LANG):
+    def __init__(self, package_name, package_info, package_loc, latest_loc, latest_site, LANG):
         super().__init__()
         self.package_name = package_name
         self.package_info = package_info
         self.package_loc = package_loc
         self.latest_loc = latest_loc
         self.latest_site = latest_site
-        self.default_route = default_route
         self.LANG = LANG
         self.initUI()
 
@@ -403,7 +394,7 @@ class MainWindow(QtWidgets.QWidget):
         
 
         # Define title ad image label
-        self.img = QtGui.QPixmap(os.path.join(TOOL_LOCATION, ".inits", "img", "ad_img.jpg"))
+        self.img = QtGui.QPixmap(os.path.join(TOOL_LOCATION, ".inits", "img", "ad_img.png"))
             #Read image
         self.label_img = QtWidgets.QLabel(self)
             #Builc empty label
@@ -429,7 +420,7 @@ class MainWindow(QtWidgets.QWidget):
 
         self.label_location = QtWidgets.QLabel(self)
             #Build empty label
-        self.label_location.setText(self.default_route)
+        self.label_location.setText(SETTING.DEFAULT_LOC)
             #Setting default msg
 
         self.direction_button = QtWidgets.QPushButton(self.LANG.STR_OPEN_FOLDER)
@@ -568,7 +559,8 @@ class MainWindow(QtWidgets.QWidget):
     def get_folder(self):
         self.install_dir = QtWidgets.QFileDialog.getExistingDirectory(self, self.LANG.STR_CHOOSE_FOLDER, TOOL_LOCATION)
         self.label_location.setText(self.install_dir)
-        self.default_route = self.install_dir
+        SETTING.DEFAULT_LOC = self.install_dir
+        SETTING.refresh_setting()
         INSTALL_LOCATION = self.install_dir
         filename = os.path.join(TOOL_LOCATION, ".inits", "default_loc")
         file = open(filename, "w", encoding="utf-8")
@@ -582,7 +574,7 @@ class MainWindow(QtWidgets.QWidget):
 
 
     def check_game_exists(self):
-        filename = os.path.join(self.default_route, ".minecraft", ".installer.cfg")
+        filename = os.path.join(SETTING.DEFAULT_LOC, ".minecraft", ".installer.cfg")
         if not os.path.exists(filename):
             return ""
         file = open(filename, "r", encoding="utf-8")
@@ -638,12 +630,12 @@ class MainWindow(QtWidgets.QWidget):
                 return
 
         try:
-            shutil.rmtree(self.default_route)
+            shutil.rmtree(SETTING.DEFAULT_LOC)
         except:
             pass
 
         try:
-            os.mkdir(self.default_route)
+            os.mkdir(SETTING.DEFAULT_LOC)
         except:
             pass
         
@@ -662,9 +654,9 @@ class MainWindow(QtWidgets.QWidget):
         ["-cp",       "-tool", jsonfile_location, "-to", "-client", ".minecraft", self.package_name[self.combo_box.currentIndex()]+"-latest.json"]
         ]
         operation_list = pro_processing + main_processing + post_processing
-        res = self.todo_main(version, last_version, download_list, download_site, operation_list, self.default_route)
+        res = self.todo_main(version, last_version, download_list, download_site, operation_list, SETTING.DEFAULT_LOC)
         filename = ".installer.cfg"
-        filename = os.path.join(self.default_route, ".minecraft", ".installer.cfg")
+        filename = os.path.join(SETTING.DEFAULT_LOC, ".minecraft", ".installer.cfg")
         file = open(filename, "w", encoding="utf-8")
         file.write(self.package_name[self.combo_box.currentIndex()])
         file.close()
@@ -693,7 +685,7 @@ class MainWindow(QtWidgets.QWidget):
                 kase = i
                 break
         print(kase)
-        json_installed_version, _, _ = get_version_and_json(os.path.join(self.default_route, ".minecraft", package_installed_name+"-latest.json"))
+        json_installed_version, _, _ = get_version_and_json(os.path.join(SETTING.DEFAULT_LOC, ".minecraft", package_installed_name+"-latest.json"))
         json_version_stack = []
         json_current_version, json_last_version, _ = get_version_and_json(os.path.join(TOOL_LOCATION, ".config", package_installed_name+"-latest.json"))
     
@@ -729,36 +721,40 @@ class MainWindow(QtWidgets.QWidget):
                 ]
                 operation_list = pro_processing + main_processing + post_processing
 
-                res = self.todo_main(version, last_version, download_list, download_site, operation_list, self.default_route)
+                res = self.todo_main(version, last_version, download_list, download_site, operation_list, SETTING.DEFAULT_LOC)
 
         self.install_package.setText(self.LANG.STR_UPDATE_END)
         QtWidgets.QApplication.processEvents()
-        game_start_path = os.path.join(self.default_route, "HMCL.jar")
-        os.system("cd " + self.default_route + " && java -jar " + game_start_path)
+        game_start_path = os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar")
+        os.system("cd " + SETTING.DEFAULT_LOC + " && java -jar " + game_start_path)
         #print("正在启动游戏")
 
 
 
-
-
-
-
-
-
-
-
 def main():
-    # Build folder for config files and download files
+    """
+    Check system and special operation for macOS route bug
+    """
     global TOOL_LOCATION
+    
     if SystemJudge() == "Darwin":
         Home = str(Path.home())
         TOOL_LOCATION = os.path.join(Home, "Library", "minecraft-mac")
-        if not os.path.exists(os.path.join(TOOL_LOCATION, "inits", "1.12.2-full.zip")):
-            print("fortest")
+        if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits")):
+            # Build surrounding in ~/Library/minecraft-mac/ rather than code/app identity location
+            # Special operation under macOS
             os.system("mkdir ~/Library/minecraft-mac")
-            shutil.copytree(".inits", os.path.join(TOOL_LOCATION, "inits"))
-        
+            if not FOR_TEST:
+                shutil.copytree("/Applications/minecraft-mac.app/Contents/MacOS/.inits", os.path.join(TOOL_LOCATION, ".inits"))
+            else:
+                shutil.copytree(".inits", os.path.join(TOOL_LOCATION, ".inits"))
+        else:
+            os.system("mkdir ~/Library/minecraft-mac/.inits/")
 
+
+    """
+    Initialization Operations 
+    """
     clear_all()
     try:
         os.mkdir(os.path.join(TOOL_LOCATION, ".config"))
@@ -768,19 +764,91 @@ def main():
         os.mkdir(os.path.join(TOOL_LOCATION, ".Download"))
     except:
         pass
+    
 
 
+    """
+    Initialization assistant config
+    """
+    # For beta version to 1.0.0 version, if default_setting.json not exist, download the blank default_setting.json
+    if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")):
+        try:
+            url = "http://www.stlaplace.online/update_files/assistant/default_setting.json"
+            filename = os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")
 
+            r = requests.get(url, allow_redirects=True)
+            open(filename, 'wb').write(r.content)
+        except:
+            error_warning("FOUND AN ERROR CANNOT BE FIXED. PLEASE CONNECT TO AUTHOR: https://www.github.com/KazukiMan")
+    
+    # Main Initialization processing
+    global SETTING
+    SETTING.initialization_setting()
+    if SETTING.DEFAULT_LOC == "":
+        SETTING.DEFAULT_LOC = os.path.join(TOOL_LOCATION, "minecraft-1.12.2")
+        SETTING.refresh_setting()
+    if SETTING.DEFAULT_LANG == "":
+        SETTING.DEFAULT_LANG = "0"
+        SETTING.refresh_setting()
+
+
+    
+    """
+    Language Initialization 
+    """
     LANG = LANG_CLASS()
     LANG.init_language_setting()
 
+
+
+    """
+    Auto check Update
+    
+    # Pre-Processing
+    assistant_loc = os.path.join(TOOL_LOCATION, ".config", "assistant_latest.json")
+    if os.path.exists(os.path.join(TOOL_LOCATION, "main.py")):
+        download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_source.json", assistant_loc, LANG)
+    else:
+        if SystemJudge() == "Dos":
+            download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_win.json", assistant_loc, LANG)
+        elif SystemJudge() == "Darwin":
+            download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_mac.json", assistant_loc, LANG)
+        else:
+            download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_rpm.json", assistant_loc, LANG)
+
+    # Main-Processing
+    version, last_version, download_list, download_site, main_processing = read_todo_json(assistant_loc)
+    if version != SETTING.VERSION:
+        for i in range(len(download_list)):
+            current_download_location = os.path.join(TOOL_LOCATION, ".Download", download_list[i])
+            download_file(download_site[i], current_download_location, LANG)
+
+        for i in range(len(operation_list)):    
+            operation_main_function(main_processing[i], TOOL_LOCATION)
+
+        if SystemJudge() == "Darwin":
+            os.system("open ./.Download/Minecraft_MacOS/")
+            return
+
+        SETTING.VERSION = version
+        SETTING.refresh_setting()
+
+    """
+
+    """
+    Game file check and download
+    """
     if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "1.12.2-full.zip")):
-        error_warning(LANG.STR_GAMEFILE_NOT_EXISTS)
-            
-    # Download config json files
+        download_file(SETTING.INITIALIZATION_SITE + "/1.12.2-full.zip", os.path.join(TOOL_LOCATION, ".inits", "1.12.2-full.zip"), LANG)
+
+
+
+    """
+    Download config json files
+    """
     # Download main package lists
-    package_list_loc = os.path.join(TOOL_LOCATION, ".config", "package_list.json")            # Confirm location
-    download_file(LANG.MAIN_SOURCE_JSON_FILE_WEB, package_list_loc, LANG)   # Download and save
+    package_list_loc = os.path.join(TOOL_LOCATION, ".config", "package_list.json")                      # Confirm location
+    download_file(SETTING.MAIN_SOURCE_JSON_FILE_WEB, package_list_loc, LANG)                            # Download and save
     package_name, package_site, package_info, latest_site= read_package_list_json(package_list_loc)     # Analysis files for post-treatment
 
     # Download packages mods config files
@@ -798,16 +866,34 @@ def main():
 
 
 
-    default_route = check_default_route_exists()
-    if len(default_route) == 0:
-        default_route = os.path.join(TOOL_LOCATION, "minecraft-1.12.2")
-
+    """
+    Main GUI window and operations
+    """
     app = QtWidgets.QApplication(sys.argv)
-    ex = MainWindow(package_name, package_info, package_loc, latest_loc, latest_site, default_route, LANG)
+    ex = MainWindow(package_name, package_info, package_loc, latest_loc, latest_site, LANG)
     sys.exit(app.exec_()) 
 
 
 
 
+
+
+
+
+
+
 if __name__ == '__main__':
+    if FOR_TEST:
+        print()
+        print("WARNING: THIS IS TESTING VERSION, PLEASE CHECK THE FOR_TEST VARIABLE IF YOU WANT TO PUBLICK THE PACKAGE")
+        print("WARNING: THIS IS TESTING VERSION, PLEASE CHECK THE FOR_TEST VARIABLE IF YOU WANT TO PUBLICK THE PACKAGE")
+        print("WARNING: THIS IS TESTING VERSION, PLEASE CHECK THE FOR_TEST VARIABLE IF YOU WANT TO PUBLICK THE PACKAGE")
+        print()
     main()
+
+
+
+
+
+
+
