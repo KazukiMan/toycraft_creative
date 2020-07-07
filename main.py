@@ -21,50 +21,76 @@ import shutil
 import zipfile
 import time 
 from pathlib import Path
+import webbrowser
+import subprocess
 
 
 
 TOOL_LOCATION = ""
-CONNECT_INFO = "Copyright by Kazuki Amakawa \n Github: https://www.github.com/KazukiMan \n Mail: KazukiAmakawa@gmail.com\n"
+NOT_DRIECT = False
+COPY_ROUTE_ROOT = ""
 FOR_TEST = True
+CONNECT_INFO = "Copyright by Kazuki Amakawa \n\n Github: https://www.github.com/KazukiMan \n Mail: KazukiAmakawa@gmail.com\n\n Version: "
 
 
 
 class default_setting():
     def __init__(self):
+        #version_setting
         self.VERSION = ""
-        self.DEFAULT_LOC = ""
-        self.DEFAULT_LANG = ""
         self.WEB_SPONSOR_WEB = ""
         self.MAIN_SOURCE_JSON_FILE_WEB = ""
         self.INITIALIZATION_SITE = ""
-
+        
+        #default setting
+        self.DEFAULT_LOC = ""
+        self.DEFAULT_LANG = ""
+        self.HAND_UPDATE_VERSION = ""
 
 
     def initialization_setting(self):
-        filename = os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")
+        filename = os.path.join(TOOL_LOCATION, ".inits", "version_setting.json")
         file = open(filename, "r")
         line = file.readline()
         file.close()
         decoded_hand = json.loads(line)
 
         self.VERSION = decoded_hand["VERSION"]
-        self.DEFAULT_LOC = decoded_hand["DEFAULT_LOC"]
-        self.DEFAULT_LANG = decoded_hand["DEFAULT_LANG"]
         self.WEB_SPONSOR_WEB = decoded_hand["WEB_SPONSOR_WEB"]
         self.MAIN_SOURCE_JSON_FILE_WEB = decoded_hand["MAIN_SOURCE_JSON_FILE_WEB"]
         self.INITIALIZATION_SITE = decoded_hand["INITIALIZATION_SITE"]
+
+        filename = os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")
+        file = open(filename, "r")
+        line = file.readline()
+        file.close()
+        decoded_hand = json.loads(line)
+
+        self.DEFAULT_LOC = decoded_hand["DEFAULT_LOC"]
+        self.DEFAULT_LANG = decoded_hand["DEFAULT_LANG"]
+        self.HAND_UPDATE_VERSION = decoded_hand["HAND_UPDATE_VERSION"]
+        return 
+
 
 
     def refresh_setting(self):
         data = []
         data.append({
             "VERSION": self.VERSION,
-            "DEFAULT_LOC": self.DEFAULT_LOC,
-            "DEFAULT_LANG": self.DEFAULT_LANG,
             "WEB_SPONSOR_WEB": self.WEB_SPONSOR_WEB,
             "MAIN_SOURCE_JSON_FILE_WEB": self.MAIN_SOURCE_JSON_FILE_WEB,
             "INITIALIZATION_SITE": self.INITIALIZATION_SITE
+            })
+        
+        filename = os.path.join(TOOL_LOCATION, ".inits","version_setting.json")
+        with open(filename, "w") as file:
+            json.dump(data[0], file)
+
+        data = []
+        data.append({
+            "DEFAULT_LOC": self.DEFAULT_LOC,
+            "DEFAULT_LANG": self.DEFAULT_LANG,
+            "HAND_UPDATE_VERSION": self.HAND_UPDATE_VERSION
             })
         
         filename = os.path.join(TOOL_LOCATION, ".inits","default_setting.json")
@@ -93,6 +119,14 @@ def clear_all():
         pass
     try:
         shutil.rmtree(os.path.join(TOOL_LOCATION, ".Download"))
+    except:
+        pass
+    try:
+        os.mkdir(os.path.join(TOOL_LOCATION, ".config"))
+    except:
+        pass
+    try:
+        os.mkdir(os.path.join(TOOL_LOCATION, ".Download"))
     except:
         pass
     return
@@ -307,11 +341,14 @@ class LANG_CLASS():
         self.STR_UPDATE_TITLE = ""
         self.STR_UPDATE = ""
         self.STR_UPDATE_END = ""
+        self.STR_HAND_UPDATE = ""
+        self.JAVA_NOT_INSTALL = ""
+        self.UPDATE_NORMAl = ""
 
 
 
     def build_lang(self):
-        filename = os.path.join(TOOL_LOCATION, ".inits", self.STR_LANGUAGE_LOCATION[self.NAME_CODE])
+        filename = os.path.join(TOOL_LOCATION, self.STR_LANGUAGE_LOCATION[self.NAME_CODE])
         strJson = pre_read_json(filename)
         decoded_hand = json.loads(strJson)
 
@@ -348,6 +385,9 @@ class LANG_CLASS():
         self.STR_UPDATE_TITLE = decoded_hand["STR_UPDATE_TITLE"]
         self.STR_UPDATE = decoded_hand["STR_UPDATE"]
         self.STR_UPDATE_END = decoded_hand["STR_UPDATE_END"]
+        self.STR_HAND_UPDATE = decoded_hand["STR_HAND_UPDATE"]
+        self.JAVA_NOT_INSTALL = decoded_hand["JAVA_NOT_INSTALL"]
+        self.UPDATE_NORMAl = decoded_hand["UPDATE_NORMAl"]
 
 
 
@@ -359,7 +399,6 @@ class LANG_CLASS():
                 decoded_hand = json.loads(strJson)
                 self.STR_LANGUAGE_NAME_ASSETS.append(decoded_hand["STR_LANGUAGE_NAME"])
                 self.STR_LANGUAGE_LOCATION.append(os.path.join(TOOL_LOCATION, ".inits", "languages", file))
-
         self.build_lang()
 
 
@@ -484,37 +523,54 @@ class MainWindow(QtWidgets.QWidget):
 
 
         # Define buttons
+        self.connect_button = QtWidgets.QPushButton(self.LANG.STR_CONNECT_US)
+            #Define button to connect us
+        self.connect_button.clicked.connect(self.connect_information)
+            #Connect to information page
+        
+        self.sponsor_button = QtWidgets.QPushButton(self.LANG.STR_SPONSOR_US)
+            #Define button sponsor us
+        self.sponsor_button.clicked.connect(self.open_sponsor_page)
+            #Connect to sonsor page
+       
+        #self.tp_screen_shot = QtWidgets.QPushButton(self.LANG.STR_TP_SCREEN)
+        self.tp_screen_shot = QtWidgets.QPushButton()
+            #Define button tp to screenshot folder
+
+        self.tp_self_mod_button = QtWidgets.QComboBox(self)
+            #Build combo box for package choose
+        self.LANG.STR_LANGUAGE_NAME_ASSETS.append("Language")
+        self.tp_self_mod_button.addItems(self.LANG.STR_LANGUAGE_NAME_ASSETS)
+        self.tp_self_mod_button.setCurrentIndex(len(self.LANG.STR_LANGUAGE_NAME_ASSETS) - 1)
+            #Add json info into box
+        self.tp_self_mod_button.currentTextChanged.connect(self.language_change)
+            #refresh the box info
+
         self.update_button = QtWidgets.QPushButton(self.LANG.STR_UPDATE_BUTTON)
             #Define button for update
         self.update_button.clicked.connect(self.update_start)
             #Connect to game function
-        self.connect_button = QtWidgets.QPushButton(self.LANG.STR_CONNECT_US)
-            #Define button to connect us
-        self.sponsor_button = QtWidgets.QPushButton(self.LANG.STR_SPONSOR_US)
-            #Define button sponsor us
-        self.tp_screen_shot = QtWidgets.QPushButton(self.LANG.STR_TP_SCREEN)
-            #Define button tp to screenshot folder
-        self.tp_self_mod_button = QtWidgets.QPushButton(self.LANG.STR_TP_SELF_MOD)
-            #Define button to self add mod folder
+
         self.ok_button = QtWidgets.QPushButton(self.LANG.STR_START_INSTALL)
             #Define button for final install
         self.ok_button.clicked.connect(self.installer)
             #Connect to installer function
-        
+
+
 
         self.hbox_tmp1 = QtWidgets.QHBoxLayout()
             #Define box1 for first 2 button
-        self.hbox_tmp1.addWidget(self.connect_button)
-            #Add button staff/screenshot/startgame to tmp1 box
         self.hbox_tmp1.addWidget(self.tp_screen_shot)
+            #Add button staff/screenshot/startgame to tmp1 box
+        self.hbox_tmp1.addWidget(self.connect_button)
             #Add button staff/screenshot/startgame to tmp1 box
         self.hbox_tmp1.addWidget(self.update_button)
             #Add button staff/screenshot/startgame to tmp1 box
         self.hbox_tmp2 = QtWidgets.QHBoxLayout()
             #Define box2 for last 2 button
-        self.hbox_tmp2.addWidget(self.sponsor_button)
-            #Add button sponsor/selfmod/installgame to tmp2 box
         self.hbox_tmp2.addWidget(self.tp_self_mod_button)
+            #Add button sponsor/selfmod/installgame to tmp2 box
+        self.hbox_tmp2.addWidget(self.sponsor_button)
             #Add button sponsor/selfmod/installgame to tmp2 box
         self.hbox_tmp2.addWidget(self.ok_button)
             #Add button sponsor/selfmod/installgame to tmp2 box
@@ -524,14 +580,12 @@ class MainWindow(QtWidgets.QWidget):
         self.vbox_final.addLayout(self.hbox_tmp2)
             #Add tmp1/tmp2 to vbox
 
-        
 
 
         self.setLayout(self.vbox_final)    
         self.show()
 
-        
-        
+                
 
     """
     Functions for box identity
@@ -570,6 +624,18 @@ class MainWindow(QtWidgets.QWidget):
 
     def change_package_intro(self):
         self.label_combo_box_intro.setText(self.package_info[self.combo_box.currentIndex()])
+
+
+
+    def language_change(self):
+        if self.tp_self_mod_button.currentIndex() == len(self.LANG.STR_LANGUAGE_NAME_ASSETS) - 1:
+            return 
+        else:
+            SETTING.DEFAULT_LANG = self.tp_self_mod_button.currentIndex()
+            SETTING.refresh_setting()
+        return 
+
+
 
 
 
@@ -725,47 +791,107 @@ class MainWindow(QtWidgets.QWidget):
 
         self.install_package.setText(self.LANG.STR_UPDATE_END)
         QtWidgets.QApplication.processEvents()
-        game_start_path = os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar")
-        os.system("cd " + SETTING.DEFAULT_LOC + " && java -jar " + game_start_path)
+        
+        if SystemJudge() == "Doc":
+            os.system(os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
+        elif SystemJudge == "Darwin":
+            subprocess.Popen("open " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar"))
+        else:
+            game_start_path = os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar")
+            os.system("cd " + SETTING.DEFAULT_LOC + " && java -jar " + game_start_path)
         #print("正在启动游戏")
+        return 
+
+
+
+    def open_sponsor_page(self):
+        webbrowser.open(SETTING.WEB_SPONSOR_WEB)
+        return 
+
+
+
+    def connect_information(self):
+        QtWidgets.QMessageBox.about(self, '', CONNECT_INFO + SETTING.VERSION) 
+        return
+
+
+
+class DownloadWindow(QtWidgets.QWidget):
+    def __init__(self, LANG):
+        super().__init__()
+        self.LANG = LANG
+        self.initUI()
+
+
+
+    def initUI(self):        
+        self.resize(400, 600)
+            #Setting default size
+        self.center()
+            #Setting default location
+        self.setWindowTitle(self.LANG.STR_TITLE)
+            #Setting window title
+        self.topFiller = QtWidgets.QWidget()
+        self.topFiller.setMinimumSize(250, 2000)
+        self.scroll = QtWidgets.QScrollArea()
+        self.scroll.setWidget(self.topFiller)
+            #Add Scroll Area
+        self.vbox_final = QtWidgets.QVBoxLayout()
+        
+
+        # Define title ad image label
+        self.img = QtGui.QPixmap(os.path.join(TOOL_LOCATION, ".inits", "img", "ad_img.png"))
+            #Read image
+        self.label_img = QtWidgets.QLabel(self)
+            #Builc empty label
+        self.label_img.setPixmap(self.img)
+            #Fill image into label
+        self.label_img.setScaledContents (True)
+            #Set autosize of image
+        
+        self.hbox_label_img = QtWidgets.QHBoxLayout()
+            #Define box for image
+        self.hbox_label_img.addWidget(self.label_img)
+            #Add image to box
+        self.vbox_final.addLayout(self.hbox_label_img)
+            #Add label img box to final box
+
 
 
 
 def main():
     """
-    Check system and special operation for macOS route bug
+    Method Confirm and initialization
     """
     global TOOL_LOCATION
-    
+    global NOT_DRIECT
+    global COPY_ROUTE_ROOT
+    global FOR_TEST
+
+    #if SystemJudge() == "Linux":
     if SystemJudge() == "Darwin":
+        NOT_DRIECT = True
         Home = str(Path.home())
         TOOL_LOCATION = os.path.join(Home, "Library", "minecraft-mac")
+        COPY_ROUTE_ROOT = "/Applications/minecraft-mac.app/Contents/MacOS/"
+        
+
+
+    """
+    Check system and special operation for macOS route bug
+    """
+    if NOT_DRIECT == True:
         if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits")):
             # Build surrounding in ~/Library/minecraft-mac/ rather than code/app identity location
             # Special operation under macOS
-            os.system("mkdir ~/Library/minecraft-mac")
             if not FOR_TEST:
-                shutil.copytree("/Applications/minecraft-mac.app/Contents/MacOS/.inits", os.path.join(TOOL_LOCATION, ".inits"))
+                shutil.copytree(os.path.join(COPY_ROUTE_ROOT, ".inits"), 
+                                os.path.join(TOOL_LOCATION, ".inits"))
             else:
                 shutil.copytree(".inits", os.path.join(TOOL_LOCATION, ".inits"))
-        else:
-            os.system("mkdir ~/Library/minecraft-mac/.inits/")
-
-
-    """
-    Initialization Operations 
-    """
     clear_all()
-    try:
-        os.mkdir(os.path.join(TOOL_LOCATION, ".config"))
-    except:
-        pass
-    try:
-        os.mkdir(os.path.join(TOOL_LOCATION, ".Download"))
-    except:
-        pass
-    
 
+    
 
     """
     Initialization assistant config
@@ -792,7 +918,30 @@ def main():
         SETTING.refresh_setting()
 
 
-    
+
+    """
+    Check update by hand is finish for not
+    """
+    if os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "update_warning")):
+        filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
+        file = open(filename, "r")
+        SIGN_VERSION = file.readline()
+        file.close()
+
+        filename = os.path.join(COPY_ROUTE_ROOT, ".inits", "default_setting.json")
+        strJson = pre_read_json(filename)
+        decoded_hand = json.loads(strJson)
+        NEW_VERSION = decoded_hand["VERSION"]
+        file.close()
+
+        if NEW_VERSION == SIGN_VERSION:
+            SETTING.VERSION = NEW_VERSION
+            SETTING.refresh_setting()
+        
+        os.remove(os.path.join(TOOL_LOCATION, ".inits", "update_warning"))
+
+
+        
     """
     Language Initialization 
     """
@@ -814,7 +963,8 @@ def main():
         elif SystemJudge() == "Darwin":
             download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_mac.json", assistant_loc, LANG)
         else:
-            download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_rpm.json", assistant_loc, LANG)
+            #download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_rpm.json", assistant_loc, LANG)
+            download_file(SETTING.INITIALIZATION_SITE+"assistant_latest_source.json", assistant_loc, LANG)
 
     # Main-Processing
     version, last_version, download_list, download_site, main_processing = read_todo_json(assistant_loc)
@@ -826,14 +976,27 @@ def main():
         for i in range(len(operation_list)):    
             operation_main_function(main_processing[i], TOOL_LOCATION)
 
-        if SystemJudge() == "Darwin":
-            os.system("open ./.Download/Minecraft_MacOS/")
-            return
+        if last_version == "HAND_UPDATE":
+            if SystemJudge() == "Darwin":
+                os.system("open ./.Download/minecraft-mac/")
+                
+                filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
+                file = open(filename, "w")
+                file.write(version)
+                file.close()
 
+                filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
+                file = open(filename, "r")
+                file.write(version)
+                file.close()
+
+                error_warning(LANG.STR_HAND_UPDATE)
+                return 
         SETTING.VERSION = version
         SETTING.refresh_setting()
-
+        error_warning(LANG.UPDATE_NORMAl)
     """
+    
 
     """
     Game file check and download
@@ -867,11 +1030,25 @@ def main():
 
 
     """
+    Check java version
+    """
+    if not os.system("java -version") == 0:
+        if SystemJudge() == "Dos":
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8")
+        elif SystemJudge() == "Darwin":
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241527_1f5b5a70bf22433b84d0e960903adac8")
+        else:
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241526_1f5b5a70bf22433b84d0e960903adac8")
+        error_warning(LANG.JAVA_NOT_INSTALL)
+
+
+
+    """
     Main GUI window and operations
     """
     app = QtWidgets.QApplication(sys.argv)
     ex = MainWindow(package_name, package_info, package_loc, latest_loc, latest_site, LANG)
-    sys.exit(app.exec_()) 
+    sys.exit(app.exec_())
 
 
 
