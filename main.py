@@ -27,8 +27,6 @@ import subprocess
 
 
 TOOL_LOCATION = ""
-NOT_DRIECT = False
-COPY_ROUTE_ROOT = ""
 FOR_TEST = True
 CONNECT_INFO = "Copyright by Kazuki Amakawa \n\n Github: https://www.github.com/KazukiMan \n Mail: KazukiAmakawa@gmail.com\n\n Version: "
 
@@ -791,7 +789,7 @@ class MainWindow(QtWidgets.QWidget):
 
         self.install_package.setText(self.LANG.STR_UPDATE_END)
         QtWidgets.QApplication.processEvents()
-        
+
         if SystemJudge() == "Doc":
             os.system(os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
         elif SystemJudge == "Darwin":
@@ -816,7 +814,7 @@ class MainWindow(QtWidgets.QWidget):
 
 
 
-class DownloadWindow(QtWidgets.QWidget):
+class initialization_window(QtWidgets.QWidget):
     def __init__(self, LANG):
         super().__init__()
         self.LANG = LANG
@@ -858,101 +856,99 @@ class DownloadWindow(QtWidgets.QWidget):
 
 
 
-
 def main():
-    """
-    Method Confirm and initialization
-    """
-    global TOOL_LOCATION
-    global NOT_DRIECT
-    global COPY_ROUTE_ROOT
     global FOR_TEST
-
-    #if SystemJudge() == "Linux":
-    if SystemJudge() == "Darwin":
-        NOT_DRIECT = True
-        Home = str(Path.home())
-        TOOL_LOCATION = os.path.join(Home, "Library", "minecraft-mac")
-        COPY_ROUTE_ROOT = "/Applications/minecraft-mac.app/Contents/MacOS/"
-        
-
-
-    """
-    Check system and special operation for macOS route bug
-    """
-    if NOT_DRIECT == True:
-        if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits")):
-            # Build surrounding in ~/Library/minecraft-mac/ rather than code/app identity location
-            # Special operation under macOS
-            if not FOR_TEST:
-                shutil.copytree(os.path.join(COPY_ROUTE_ROOT, ".inits"), 
-                                os.path.join(TOOL_LOCATION, ".inits"))
-            else:
-                shutil.copytree(".inits", os.path.join(TOOL_LOCATION, ".inits"))
-    clear_all()
-
-    
-
-    """
-    Initialization assistant config
-    """
-    # For beta version to 1.0.0 version, if default_setting.json not exist, download the blank default_setting.json
-    if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")):
-        try:
-            url = "http://www.stlaplace.online/update_files/assistant/default_setting.json"
-            filename = os.path.join(TOOL_LOCATION, ".inits", "default_setting.json")
-
-            r = requests.get(url, allow_redirects=True)
-            open(filename, 'wb').write(r.content)
-        except:
-            error_warning("FOUND AN ERROR CANNOT BE FIXED. PLEASE CONNECT TO AUTHOR: https://www.github.com/KazukiMan")
-    
-    # Main Initialization processing
     global SETTING
-    SETTING.initialization_setting()
+    global TOOL_LOCATION
+
+
+
+    """
+    System based Initialization - Pre-Processing
+    """ 
+    # Parameter confirm
+    not_direct_route = False        # Parameter for game file and assistant not include in same direction
+    copy_route_root = ""            # Record of assistant direction
+    first_time_initial = False      # Sign for first time file copy and download 
+    open_cmd_head = ""
+
+    if SystemJudge() == "Dos":
+        TOOL_LOCATION = os.getcwd()
+
+        not_direct_route = False
+        copy_route_root = ""
+        open_cmd_head = ""
+
+    elif SystemJudge() == "Darwin":
+        TOOL_LOCATION = os.path.join(str(Path.home()), "Library", "minecraft-mac")
+
+        not_direct_route = True
+        copy_route_root = "/Applications/minecraft-mac.app/Contents/MacOS/"
+        open_cmd_head = "open"
+
+    else:
+        TOOL_LOCATION = os.getcwd()
+
+        not_direct_route = False
+        copy_route_root = ""
+        open_cmd_head = ""
+
+    if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits")):
+        first_time_initial = True
+
+    if os.path.exists("main.py"):
+        copy_route_root = ""
+
+
+
+    # Surrounding build and file copy
+    if not_direct_route:
+        if first_time_initial:
+            shutil.copytree(os.path.join(COPY_ROUTE_ROOT, ".inits"), 
+                            os.path.join(TOOL_LOCATION, ".inits"))            
+        else:
+            shutil.copyfile(os.path.join(COPY_ROUTE_ROOT, ".inits", "version_setting.json"), 
+                            os.path.join(TOOL_LOCATION, ".inits", "version_setting.json"))
+
+
+
+    """
+    System based Initialization - Main-Processing
+    """ 
+    SETTING.initialization_setting()    # Initialization Setting parameters
     if SETTING.DEFAULT_LOC == "":
         SETTING.DEFAULT_LOC = os.path.join(TOOL_LOCATION, "minecraft-1.12.2")
         SETTING.refresh_setting()
     if SETTING.DEFAULT_LANG == "":
         SETTING.DEFAULT_LANG = "0"
         SETTING.refresh_setting()
-
-
-
-    """
-    Check update by hand is finish for not
-    """
-    if os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "update_warning")):
-        filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
-        file = open(filename, "r")
-        SIGN_VERSION = file.readline()
-        file.close()
-
-        filename = os.path.join(COPY_ROUTE_ROOT, ".inits", "default_setting.json")
-        strJson = pre_read_json(filename)
-        decoded_hand = json.loads(strJson)
-        NEW_VERSION = decoded_hand["VERSION"]
-        file.close()
-
-        if NEW_VERSION == SIGN_VERSION:
-            SETTING.VERSION = NEW_VERSION
-            SETTING.refresh_setting()
-        
-        os.remove(os.path.join(TOOL_LOCATION, ".inits", "update_warning"))
-
-
-        
-    """
-    Language Initialization 
-    """
-    LANG = LANG_CLASS()
+    
+    LANG = LANG_CLASS()                 # Initialization Language parameters
     LANG.init_language_setting()
 
+    clear_all()                         # Clear last time download files
+    
 
 
     """
-    Auto check Update
+    Update assistant - Pre-Processing
+    """
+    if not len(SETTING.HAND_UPDATE_VERSION):
+        if SETTING.HAND_UPDATE_VERSION != SETTING.VERSION
+            error_warning(LANG.STR_HAND_UPDATE)
+            os.system(open_cmd_head + " " + os.path.join(TOOL_LOCATION, ".inits", "minecraft-mac"))
+        else:
+            shutil.rmtree(os.path.join(TOOL_LOCATION, ".inits", "minecraft-mac"))
+            SETTING.VERSION = SETTING.HAND_UPDATE_VERSION
+            SETTING.HAND_UPDATE_VERSION = ""
+            SETTING.refresh_setting()
+
+
+
+    """
+    Update assistant - Main Processing 
     
+
     # Pre-Processing
     assistant_loc = os.path.join(TOOL_LOCATION, ".config", "assistant_latest.json")
     if os.path.exists(os.path.join(TOOL_LOCATION, "main.py")):
@@ -979,30 +975,42 @@ def main():
         if last_version == "HAND_UPDATE":
             if SystemJudge() == "Darwin":
                 os.system("open ./.Download/minecraft-mac/")
-                
-                filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
-                file = open(filename, "w")
-                file.write(version)
-                file.close()
-
-                filename = os.path.join(TOOL_LOCATION, ".inits", "update_warning")
-                file = open(filename, "r")
-                file.write(version)
-                file.close()
-
+                SETTING.HAND_UPDATE_VERSION = version
+                SETTING.refresh_setting()
                 error_warning(LANG.STR_HAND_UPDATE)
                 return 
+                
         SETTING.VERSION = version
         SETTING.refresh_setting()
         error_warning(LANG.UPDATE_NORMAl)
-    """
     
-
-    """
-    Game file check and download
-    """
+    # Addones download Initialization
+    if first_time_initial:
+        app = QtWidgets.QApplication(sys.argv)
+        ex = initialization_window(LANG)
+        #sys.exit(app.exec_())
     if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "1.12.2-full.zip")):
         download_file(SETTING.INITIALIZATION_SITE + "/1.12.2-full.zip", os.path.join(TOOL_LOCATION, ".inits", "1.12.2-full.zip"), LANG)
+    QCoreApplication.quit()
+
+    """  
+
+
+
+    """
+    MAIN ASSISTANT UPDATE AND INSTALLATION
+    """    
+    """
+    Check java version
+    """
+    if not os.system("java -version") == 0:
+        if SystemJudge() == "Dos":
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8")
+        elif SystemJudge() == "Darwin":
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241527_1f5b5a70bf22433b84d0e960903adac8")
+        else:
+            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241526_1f5b5a70bf22433b84d0e960903adac8")
+        error_warning(LANG.JAVA_NOT_INSTALL)
 
 
 
@@ -1030,32 +1038,11 @@ def main():
 
 
     """
-    Check java version
-    """
-    if not os.system("java -version") == 0:
-        if SystemJudge() == "Dos":
-            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8")
-        elif SystemJudge() == "Darwin":
-            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241527_1f5b5a70bf22433b84d0e960903adac8")
-        else:
-            webbrowser.open("https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241526_1f5b5a70bf22433b84d0e960903adac8")
-        error_warning(LANG.JAVA_NOT_INSTALL)
-
-
-
-    """
     Main GUI window and operations
     """
     app = QtWidgets.QApplication(sys.argv)
     ex = MainWindow(package_name, package_info, package_loc, latest_loc, latest_site, LANG)
     sys.exit(app.exec_())
-
-
-
-
-
-
-
 
 
 
@@ -1067,6 +1054,8 @@ if __name__ == '__main__':
         print("WARNING: THIS IS TESTING VERSION, PLEASE CHECK THE FOR_TEST VARIABLE IF YOU WANT TO PUBLICK THE PACKAGE")
         print()
     main()
+
+
 
 
 
