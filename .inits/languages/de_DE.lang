@@ -1,0 +1,52 @@
+{
+    "STR_LANGUAGE_NAME": "Deutsch",
+
+    "STR_NOT_CONNECT": "Netzwerkverbindung fehlgeschlagen, bitte Netzwerk checken. Wenn kein Problem mit Internet, bitte direkt mit Gastgeber.",
+    "STR_TITLE": "Assistent für Installation/Update des Minecrafts.",
+    
+    "STR_UPDATE_BUTTON": "Ins Startprogramm",
+    "STR_CONNECT_US": "Versionsinformation",
+    "STR_SPONSOR_US": "Uns sponsern",
+    "STR_TP_SELF_MOD": "Mod addieren",
+    "STR_TP_SCREEN": "Screenshot checken",
+    "STR_START_INSTALL": "Installation starten",
+    
+    "STR_OPEN_FOLDER": "Ordner öffnen",
+    "STR_FOLDER_MSG": "Pfad installieren/starten",
+    "STR_CHOOSE_FOLDER": "Bitte wählen Sie einen Ordner.",
+
+    "STR_SET_PACKAGE": "Wählen Sie Installationspack (Wenn Sie updaten möchten, bitte ignorieren)",
+    "STR_SET_MODS": "Wählen Sie das empfohlene Mod aus",
+    
+    "STR_COMMAND_ERROR": "Anweisungsfehler, bitte Gastgeber kontaktieren",
+    
+    "STR_DELETE_FOLDER": "Durch diesen Vorgang werden alle Dateien im Pfadordner gelöscht, möchten Sie fortfahren?",
+    "STR_DELETE_GAME_CHECK": "Der aktuelle Pfad enthält Spieledateien, durch diesen Vorgang werden alle Dateien im Pfadordner gelöscht, möchten Sie fortfahren?",
+    "STR_GAME_NOT_EXISTS": "Spiel kann nicht gestartet werden, weil keine richtige Version installiert wird.",
+    
+    "STR_PREPARED": "Alles bereit!",
+    "STR_GAMEFILE_NOT_EXISTS": "Spieledatei existiert nicht, bitte entpacken Sie das komprimierte Paket erneut, oder kontaktieren Sie Gastgeber.",
+    
+    "STR_ASK_FOR_EXIT": "Möchten Sie das Installationsprogramm beenden?",
+
+    "STR_INSTALL_TITLE": "Installationen gerade durchführen: ",
+    "STR_INSTALL_TITLE_2": ", bitte nicht Programm beenden.",
+
+    "STR_DOWNLOAD_1": "Lade gerade herunter, die ",
+    "STR_DOWNLOAD_2": "te Datei, insgesamt ",
+    "STR_DOWNLOAD_3": " Daten.",
+
+    "STR_INSTALL_1": "Installieren gerade, die ",
+    "STR_INSTALL_2": "te Datei, insgesamt ",
+    "STR_INSTALL_3": " Daten",
+
+    "STR_INSTALL_END": "Installation fertig geschafft! Klicken Sie „Geb den Starter ein“, um das Spiel zu starten.",
+
+    "STR_UPDATE_TITLE": "Update-Datei abrufen.",
+    "STR_UPDATE": "Version updaten: ",
+    "STR_UPDATE_END": "Update fertig geschafft, Spiel wurde gestartet.",
+    
+    "STR_HAND_UPDATE": "Ziehen Sie die Datei per Drag & Drop in den Ordner, um die Originaldatei zu ersetzen, und starten Sie den Launcher neu.",
+    "JAVA_NOT_INSTALL": "Keine Java-Umgebung gefunden, eine Seite zum Herunterladen der Java-Umgebung wird angezeigt.",
+    "UPDATE_NORMAl": "Update erfolgreich, bitte starten Sie den Launcher neu."
+}

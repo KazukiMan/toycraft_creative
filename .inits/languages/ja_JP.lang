@@ -1,0 +1,52 @@
+{
+    "STR_LANGUAGE_NAME": "日本語",
+
+    "STR_NOT_CONNECT": "インターネットに接続されていません。ネットワークを確認してください。接続の問題がない場合はサーバー所有者を連絡してください",
+    "STR_TITLE": "マインクラフトインスタイル・アップデイトアシスタント",
+    
+    "STR_UPDATE_BUTTON": "ゲームスタート",
+    "STR_CONNECT_US": "このアシスタントについて",
+    "STR_SPONSOR_US": "スポンサー",
+    "STR_TP_SELF_MOD": "ゲームモード追加",
+    "STR_TP_SCREEN": "スクリーンショット",
+    "STR_START_INSTALL": "ゲームインスタイル",
+    
+    "STR_OPEN_FOLDER": "開く",
+    "STR_FOLDER_MSG": "インスタイル・スタートルート",
+    "STR_CHOOSE_FOLDER": "フォルダーを選択してください",
+
+    "STR_SET_PACKAGE": "インストールパッケージを選択してください（アップデイト無視）",
+    "STR_SET_MODS": "おすすめのパッケージを選択してください",
+    
+    "STR_COMMAND_ERROR": "コマンドエラー。サーバー所用者を連絡してください。",
+    
+    "STR_DELETE_FOLDER": "この操作は、フォルダ内のすべてのファイルを削除します。",
+    "STR_DELETE_GAME_CHECK": "既存のゲームが見つかりました。このオプションは、現在のフォルダの下にあるすべてのファイルを削除します。続きますか？",
+    "STR_GAME_NOT_EXISTS": "必要なバージョンのゲームがインストールされていません。ゲームが起動できませんでした。",
+    
+    "STR_PREPARED": "準備完了",
+    "STR_GAMEFILE_NOT_EXISTS": "ゲームファイルが見つかりません。ファイルを再度解凍するか、サーバー管理者に連絡してください。",
+    
+    "STR_ASK_FOR_EXIT": "",
+
+    "STR_INSTALL_TITLE": "",
+    "STR_INSTALL_TITLE_2": "パッケージがダウンロード中、終了しないでください",
+
+    "STR_DOWNLOAD_1": "ダウンロード中： ",
+    "STR_DOWNLOAD_2": " / ",
+    "STR_DOWNLOAD_3": "",
+
+    "STR_INSTALL_1": "インストール中： ",
+    "STR_INSTALL_2": " / ",
+    "STR_INSTALL_3": "",
+
+    "STR_INSTALL_END": "ゲームのインストールが完了しました。ゲームを開始するために「ゲームスタート」をクリックしてください",
+
+    "STR_UPDATE_TITLE": "アップデートファイルを受け取ります",
+    "STR_UPDATE": "更新バージョン ",
+    "STR_UPDATE_END": "更新が完了しました。ゲームが開始されます。",
+    
+    "STR_HAND_UPDATE": "ファイルをフォルダにドラッグして元のファイルを置き換えてから、このアシスタントを再起動してください",
+    "JAVA_NOT_INSTALL": "Java環境が見つかりません。 Java環境をダウンロードするためのページをポップしました。",
+    "UPDATE_NORMAl": "更新完了、アシスタント再起動してください。"
+}

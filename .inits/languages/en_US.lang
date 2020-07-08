@@ -1,0 +1,52 @@
+{
+    "STR_LANGUAGE_NAME": "English",
+
+    "STR_NOT_CONNECT": "The network connection failed. Please check your internet. If you believe your network is working properly, please contact the server admin.",
+    "STR_TITLE": "Minecraft installation/update helper",
+    
+    "STR_UPDATE_BUTTON": "Enter Launcher",
+    "STR_CONNECT_US": "Contact Us",
+    "STR_SPONSOR_US": "Sponsor",
+    "STR_TP_SELF_MOD": "Add mod",
+    "STR_TP_SCREEN": "Screenshot",
+    "STR_START_INSTALL": "Install!",
+
+    "STR_OPEN_FOLDER": "Open folder",
+    "STR_FOLDER_MSG": "Install/Launch Path",
+    "STR_CHOOSE_FOLDER": "Please choose a folder",
+
+    "STR_SET_PACKAGE": "Please choose the installation package(ignore this if you are updating)",
+    "STR_SET_MODS": "Please choose the recommended mod",
+
+    "STR_COMMAND_ERROR": "Command Error. Please contact the server admin.",
+    
+    "STR_DELETE_FOLDER": "This option will delete all files under the current folder. Continue?",
+    "STR_DELETE_GAME_CHECK": "An existing game has been found under this path. This option will delete all files under the current folder. Continue?",
+    "STR_GAME_NOT_EXISTS": "The Game could not start because the required version of the game is not installed. ",
+ 
+    "STR_PREPARED": "Ready!",
+    "STR_GAMEFILE_NOT_EXISTS": "Game file not found. Please decompress the file again or contact the server admin.",
+
+    "STR_ASK_FOR_EXIT": "Are you sure you want to exit this installation?",
+
+    "STR_INSTALL_TITLE": "Downloading package: ",
+    "STR_INSTALL_TITLE_2": " please do not exit the program.",
+
+    "STR_DOWNLOAD_1": "Downloading files, ",
+    "STR_DOWNLOAD_2": " / ",
+    "STR_DOWNLOAD_3": "",
+
+    "STR_INSTALL_1": "Installing files, ",
+    "STR_INSTALL_2": " / ",
+    "STR_INSTALL_3": "",
+
+    "STR_INSTALL_END": "The Game installation is complete. To start the game, click 'Enter Launcher'",
+
+    "STR_UPDATE_TITLE": "Receiving the update files",
+    "STR_UPDATE": "Updating version to  ",
+    "STR_UPDATE_END": "The game update is finished, starting the game",
+    
+    "STR_HAND_UPDATE": "Please drag the file to the folder to replace the original files, then restart the launcher",
+    "JAVA_NOT_INSTALL": "Java environment is not found. We've popped a page to download the Java environment.",
+    "UPDATE_NORMAl": "Update succeed. Please restart the assistant."
+}
