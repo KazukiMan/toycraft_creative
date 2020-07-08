@@ -878,15 +878,25 @@ class initialization_window(QtWidgets.QWidget):
     def update_preprocessing(self):
         # Check hand by update finished or not
         if len(SETTING.HAND_UPDATE_VERSION) != 0:
+            #print(SETTING.HAND_UPDATE_VERSION)
+            #print(SETTING.VERSION)
             if SETTING.HAND_UPDATE_VERSION != SETTING.VERSION:
+                #print("sb")
+                os.system(self.open_cmd_head + " " + os.path.join(TOOL_LOCATION, ".inits", "minecraft-new"))
+                self.close()
                 error_warning(self.LANG.STR_HAND_UPDATE)
-                os.system(open_cmd_head + " " + os.path.join(TOOL_LOCATION, ".inits", "minecraft-mac"))
+
             else:
-                shutil.rmtree(os.path.join(TOOL_LOCATION, ".inits", "minecraft-mac"))
+                #print("sjb")
+                try:
+                    shutil.rmtree(os.path.join(TOOL_LOCATION, ".inits", "minecraft-new"))
+                except:
+                    pass
                 SETTING.VERSION = SETTING.HAND_UPDATE_VERSION
                 SETTING.HAND_UPDATE_VERSION = ""
                 SETTING.refresh_setting()
-        
+                time.sleep(3)
+
         # Download assistant update config
         self.install_package.setText(self.LANG.STR_UPDATE_TITLE + "1/2")
         QtWidgets.QApplication.processEvents()
@@ -924,6 +934,8 @@ class initialization_window(QtWidgets.QWidget):
             true_download_list = download_list
             true_download_site = download_site
             true_processing = main_processing
+            if last_version == "HAND_UPDATE":
+                true_processing.append(["-unzip",    "-tool", ".Download", "minecraft-new.zip", "-to", "-tool", ".inits", "minecraft-new"])
 
         # Add addones download to queue
         if not os.path.exists(os.path.join(TOOL_LOCATION, ".inits", "1.12.2-full.zip")):
@@ -931,8 +943,7 @@ class initialization_window(QtWidgets.QWidget):
             true_download_site.append(SETTING.ADDONES_SITE + "/1.12.2-full.zip")
             true_processing.append(["-mv",       "-tool", ".Download", "1.12.2-full.zip",   "-to", "-tool", ".inits", "1.12.2-full.zip"])
        
-        if last_version == "HAND_UPDATE":
-            true_processing.append(["-unzip",    "-tool", ".Download", "minecraft-new.zip", "-to", "-tool", ".inits", "minecraft-mac"])
+
         
         if FOR_TEST:
             print(true_download_list)
@@ -958,17 +969,17 @@ class initialization_window(QtWidgets.QWidget):
         QtWidgets.QApplication.processEvents()
         
         # Post operations 
-        if last_version == "HAND_UPDATE":
-            os.system(self.open_cmd_head + " " + os.path.join(TOOL_LOCATION, ".inits", "minecraft-new"))
-            SETTING.HAND_UPDATE_VERSION = version
-            SETTING.refresh_setting()
-            error_warning(LANG.STR_HAND_UPDATE)
-            return 
-        
         if version != SETTING.VERSION:
+            if last_version == "HAND_UPDATE":
+                os.system(self.open_cmd_head + " " + os.path.join(TOOL_LOCATION, ".inits", "minecraft-new"))
+                SETTING.HAND_UPDATE_VERSION = version
+                SETTING.refresh_setting()
+                self.close()
+                error_warning(self.LANG.STR_HAND_UPDATE)
+
             SETTING.VERSION = version
             SETTING.refresh_setting()
-            error_warning(LANG.UPDATE_NORMAl)
+            error_warning(self.LANG.UPDATE_NORMAl)
         
         self.close()
         #QCoreApplication.instance().quit
