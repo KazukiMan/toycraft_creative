@@ -16,5 +16,8 @@ MacOS:
 Linux:
 	echo "not finish"
 
+Windows:
+	pyinstaller --onefile main.py --hidden-import=PyQt5.sip --windowed 
+
 clean:
 	rm -rf .config .Download .DS_Store .inits/.DS_Store .inits/img/.DS_Store .inits/languages/.DS_Store build dist __pycache__ main.spec

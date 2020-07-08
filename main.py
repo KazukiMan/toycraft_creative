@@ -635,7 +635,7 @@ class MainWindow(QtWidgets.QWidget):
         if self.tp_self_mod_button.currentIndex() == len(self.LANG.STR_LANGUAGE_NAME_ASSETS) - 1:
             return 
         else:
-            SETTING.DEFAULT_LANG = self.tp_self_mod_button.currentIndex()
+            SETTING.DEFAULT_LANG = str(self.tp_self_mod_button.currentIndex())
             SETTING.refresh_setting()
         return 
 
