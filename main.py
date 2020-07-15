@@ -809,7 +809,7 @@ class MainWindow(QtWidgets.QWidget):
         if FOR_TEST:
             os.system("open " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar"))
         else:
-            if SystemJudge() == "Doc":
+            if SystemJudge() == "Dos":
                 os.system(os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
             elif SystemJudge() == "Darwin":
                 os.system("open " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar"))
