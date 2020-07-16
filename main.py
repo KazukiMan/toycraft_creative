@@ -810,7 +810,8 @@ class MainWindow(QtWidgets.QWidget):
             os.system("open " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar"))
         else:
             if SystemJudge() == "Dos":
-                os.system(os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
+                #print(os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
+                os.system("cd " + SETTING.DEFAULT_LOC + " && " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.exe"))
             elif SystemJudge() == "Darwin":
                 os.system("open " + os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar"))
                 #game_start_path = os.path.join(SETTING.DEFAULT_LOC, "HMCL.jar")
